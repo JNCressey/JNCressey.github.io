@@ -1,4 +1,4 @@
-Github profile: <https://github.com/JNCressey>
+GitHub profile: <https://github.com/JNCressey>
 
 # development
 
