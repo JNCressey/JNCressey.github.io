@@ -26,6 +26,12 @@ GitHub profile: <https://github.com/JNCressey>
 
 [Read More](blogs/minecraft/jigsawdungeon.md)
 
+## Tzar
+
+### Attempt to document the AI scripting language and configurable game constants 
+
+[Read More](blogs/tzar/redocument.md)
+
 ## Coding Challenges
 
 ### A solver for the Tower of Hanoi puzzle using memorised iteration instead of recursion
