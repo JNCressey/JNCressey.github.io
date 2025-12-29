@@ -4,7 +4,10 @@ There is a choice of AIs to assign to a each player when setting up a game. For 
 
 I found the AIs are programmable in a relatively text-based language. I found some information in the manual about creating custom scenarios, but did not find a complete documentation for this AI script.
 
-I found I could add additional AIs by adding additional script files to the folder where the original AIs were stored. Some files had the file extension `AI` while others had `AIS`. The scripts with `AIS` were able to include other AI files, this is the method of code re-use, since a common AI file that handles the basics could be included in multiple AIs that implement more specific stratergies.
+I found I could add additional AIs by adding additional script files to the folder where the original AIs were stored. Some files had the file extension `AI` while others had `AIS`. The scripts with `AIS` were able to include other AI files, this is the method of code re-use, since a common AI file that handles the basics could be included in multiple AIs that implement more specific stratergies. The scripts that are selectable in game are controlled by the `AI.INI` file - you add the name that the players will see in the AI seclection followed by an equals sign and the file name, examples:
+
+    Magic = Magic.ais
+    JNC spies = JNC_SPIES.ais
 
 The main jist of an AI script is a list of commands that tell the AI a goal of how much of a unit, building, resource, or tehnologies to get. examples:
 
