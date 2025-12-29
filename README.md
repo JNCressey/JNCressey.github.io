@@ -18,3 +18,13 @@ GitHub profile: <https://github.com/JNCressey>
 ### Plugin for RuneLite: No Hint-Arrow
 
 [Read More](blogs/runelite/nohintarrow.md)
+
+
+## Minecraft
+
+### A datapack to generate randomised dungeons
+
+[Read More](blogs/minecraft/jigsawdungeon.md)
+
+
+
