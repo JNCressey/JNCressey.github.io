@@ -32,6 +32,12 @@ GitHub profile: <https://github.com/JNCressey>
 
 [Read More](blogs/tzar/redocument.md)
 
+## Barcodes
+
+### Barcode sheet generator 
+
+[Read More](blogs/barcodes/barcodesheetgenerator.md)
+
 ## Coding Challenges
 
 ### A solver for the Tower of Hanoi puzzle using memorised iteration instead of recursion
