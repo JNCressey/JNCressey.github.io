@@ -4,7 +4,7 @@ GitHub profile: <https://github.com/JNCressey>
 
 ## Oldschool RuneScape Wiki
 
-### Enhancement to the Fairycode module
+### Location name tooltip enhancement to the Fairycode module
 
 [Read More](blogs/osrswiki/modulefairycode.md)
 
