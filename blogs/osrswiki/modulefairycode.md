@@ -4,7 +4,7 @@ Fairy rings are circle of mushrooms, at specific locations in the world, used in
 
 As they are a frequently used transportation method in the game, wiki articles often mention a fairy code. The wiki has a template for formatting these codes to give them a style that stands out in the page. 
 
-Sometimes a fairy code is mentioned on an article and it isn't exactly clear where the corresponding fairy ring is located. I decided I would update the template to add a tooltip that would show the official location name for that fairy code. 
+Sometimes, a fairy code is mentioned on an article, but it isn't exactly clear where the corresponding fairy ring is located. I decided I would update the template to add a tooltip that would show the official location name for that fairy code. 
 
 The template's functionality was provided by a Lua module that prepared the html code for the fairy code to put in the page.
 
