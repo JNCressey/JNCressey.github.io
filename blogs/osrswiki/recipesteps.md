@@ -16,6 +16,10 @@ At first I was unsure which information should be included in the table. If it m
 
 ### Design 4
 
+I decided that, for simply explaining the steps involving partialy-made items that aren't traded, the tables of the previous designs would be too cluttered and unnecessary compared to the already existing `Instructions` template which simply lists a sentence of what to do for each step.
+
+To be useful, the table should compare the profits made by performing each step of creation.
+
 ### Design 5
 
 ### Design 6
