@@ -1,7 +1,30 @@
 # Location name enhancement to the Fairycode module on the Runescape wiki
 
-[version diff for my edits](http://archive.today/9VFLi)
+Fairy rings are circle of mushrooms, at specific locations in the world, used in the game for teleportation. Each fairy ring has a 3 letter code, as an address. You dial a code from any fairy ring to be teleported to the ring that corresponds to the entered code.
 
+As they are a frequently used transportation method in the game, wiki articles often mention a fairy code. The wiki has a template for formatting these codes to give them a style that stands out in the page. 
+
+Sometimes a fairy code is mentioned on an article and it isn't exactly clear where the corresponding fairy ring is located. I decided I would update the template to add a tooltip that would show the official location name for that fairy code. 
+
+The template's functionality was provided by a Lua module that prepared the html code for the fairy code to put in the page.
+
+This page shows the changes I made to the module: [version diff for my edits](http://archive.today/9VFLi)
+
+To start, I included a dictionary mapping fairy codes to the location names and coded that into a local variable for the module.
+
+The original output was a `<span>` node containing the stylised code, so my first version was to add the location as a `title` arttribute to that node. This worked when hovering the mouse over a fairy code. But this approach had done issues: 
+1. There was no visual indication that the extra information is there.
+2.  It didn't work on mobile.
+3.  I read that using the `title` attribute in this way isn't accessible to assistive technologies.
+
+Instead of using the title attribute, now it puts the original node inside a `<abbr>` node.
+1. By default these visually show a dotted underline and the cursor has a question mark when pointing at the node.
+2. Now that the `<abbr>` node causes the location name to appear popped out of the node, it also worked on mobile when tapping on the fairy code. Although it only worked when the mobile requested the desktop site, it still didn't work when viewing the mobile site.
+3. The aira text is set for it to read out both the fairy code and the location name.
+
+There were a couple of complications to fix. 
+* Sometimes, a code that doesn't have a location assigned is used within a combination code. I made the module simply return the original version of the fairy code `<span>` node when a location name wasn't defined. This also has the benefit of being a safe fallback when a new fairy code is added to the game and is mentioned in an article before the location name is added to the module.
+* The output of this template was also passed into the arguments of other templates for using it as labels, but the output now was inserting special characters that would break the other template calls. I replaced special characters in my output with their html escape-sequence and made a function to process the location name, escaping any special characters, before outputting.
 
 
 *Created using intellectual property belonging to Jagex Limited under the terms of [Jagex's Fan Content Policy](https://legal.jagex.com/docs/policies/fan-content-policy).
