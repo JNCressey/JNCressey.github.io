@@ -4,11 +4,11 @@ GitHub profile: <https://github.com/JNCressey>
 
 ## Oldschool RuneScape Wiki
 
-### Enhancement to the Fairycode module on the Runescape wiki
+### Enhancement to the Fairycode module
 
 [Read More](blogs/osrswiki/modulefairycode.md)
 
-### recipe steps comparison table for old school RuneScape wiki
+### recipe steps profit comparison table
 
 [Read More](blogs/osrswiki/recipesteps.md)
 
