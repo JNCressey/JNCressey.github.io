@@ -20,4 +20,4 @@ I started by adding a call to clear the hint-arrow in the function that is run e
 ## Delay to remove
 ## Substite marker
 ## Debugging features
-## Not working with mage training arena plugin==
+## Not working with mage training arena plugin
