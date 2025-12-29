@@ -1,6 +1,6 @@
 GitHub profile: <https://github.com/JNCressey>
 
-# development
+# Development Projects
 
 ## Oldschool RuneScape Wiki
 
@@ -8,7 +8,7 @@ GitHub profile: <https://github.com/JNCressey>
 
 [Read More](blogs/osrswiki/modulefairycode.md)
 
-### recipe steps profit comparison table
+### Recipe steps profit comparison table
 
 [Read More](blogs/osrswiki/recipesteps.md)
 
@@ -26,7 +26,7 @@ GitHub profile: <https://github.com/JNCressey>
 
 [Read More](blogs/minecraft/jigsawdungeon.md)
 
-## Tzar
+## Tzar: The Burden of the Crown
 
 ### Attempt to document the AI scripting language and configurable game constants 
 
