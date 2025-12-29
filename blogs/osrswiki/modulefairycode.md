@@ -6,7 +6,7 @@ As they are a frequently used transportation method in the game, wiki articles o
 
 Sometimes, a fairy code is mentioned on an article, but it isn't exactly clear where the corresponding fairy ring is located. I decided I would update the template to add a tooltip that would show the official location name for that fairy code. 
 
-The template's functionality was provided by a Lua module that prepared the html code for the fairy code to put in the page.
+The template's functionality was provided by a Lua module that prepared the HTML code for the fairy code to put in the page.
 
 This page shows the changes I made to the module: [version diff for my edits](http://archive.today/9VFLi)
 
@@ -24,7 +24,7 @@ Instead of using the title attribute, now it puts the original node inside a `<a
 
 There were a couple of complications to fix. 
 * Sometimes, a code that doesn't have a location assigned is used within a combination code. I made the module simply return the original version of the fairy code `<span>` node when a location name wasn't defined. This also has the benefit of being a safe fallback when a new fairy code is added to the game and is mentioned in an article before the location name is added to the module.
-* The output of this template was also passed into the arguments of other templates for using it as labels, but the output now was inserting special characters that would break the other template calls. I replaced special characters in my output with their html escape-sequence and made a function to process the location name, escaping any special characters, before outputting.
+* The output of this template was also passed into the arguments of other templates for using it as labels, but the output now was inserting special characters that would break the other template calls. I replaced special characters in my output with their HTML escape-sequence and made a function to process the location name, escaping any special characters, before outputting.
 
 
 *Created using intellectual property belonging to Jagex Limited under the terms of [Jagex's Fan Content Policy](https://legal.jagex.com/docs/policies/fan-content-policy).
