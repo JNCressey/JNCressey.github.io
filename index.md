@@ -1,5 +1,5 @@
 # JNCressey
-Github profile: github.com/JNCressey
+Github profile: https://github.com/JNCressey
 
 # Contents
 
