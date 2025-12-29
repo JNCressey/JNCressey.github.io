@@ -1,3 +1,3 @@
-# Enhancement to a module on the Runescape wiki
+# Enhancement to the Fairycode module on the Runescape wiki
 
 [version diff for my edits](http://archive.today/9VFLi)
