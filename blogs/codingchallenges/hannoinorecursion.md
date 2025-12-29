@@ -1,1 +1,1 @@
-# A solver for the towers of hannoi puzzle using memorised results instead of recursion
+# A solver for the Towers of Hannoi puzzle using memorised results instead of recursion
