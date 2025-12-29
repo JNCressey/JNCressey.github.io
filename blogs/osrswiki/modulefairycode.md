@@ -20,7 +20,7 @@ The original output was a `<span>` node containing the stylised code, so my firs
 Instead of using the title attribute, now it puts the original node inside a `<abbr>` node.
 1. By default these visually show a dotted underline and the cursor has a question mark when pointing at the node.
 2. Now that the `<abbr>` node causes the location name to appear popped out of the node, it also worked on mobile when tapping on the fairy code. Although it only worked when the mobile requested the desktop site, it still didn't work when viewing the mobile site.
-3. The aira text is set for it to read out both the fairy code and the location name.
+3. The `aira-label` text is set for assitive texhnologies to read out both the fairy code and the location name.
 
 There were a couple of complications to fix. 
 * Sometimes, a code that doesn't have a location assigned is used within a combination code. I made the module simply return the original version of the fairy code `<span>` node when a location name wasn't defined. This also has the benefit of being a safe fallback when a new fairy code is added to the game and is mentioned in an article before the location name is added to the module.
