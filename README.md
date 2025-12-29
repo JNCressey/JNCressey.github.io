@@ -26,5 +26,20 @@ GitHub profile: <https://github.com/JNCressey>
 
 [Read More](blogs/minecraft/jigsawdungeon.md)
 
+## Coding Challenges
 
+### A solver for the Tower of Hanoi puzzle using memorised iteration instead of recursion
 
+[Read More](blogs/codingchallenges/hanoinorecursion.md)
+
+### The sequence of bet amounts when using the Martingale strategy
+
+[Read More](blogs/codingchallenges/martingalegambling.md)
+
+### Parker's Maths Puzzles 'MPMP: The 1 Million Bank Balance puzzle'
+
+[Read More](blogs/codingchallenges/mpmpbank.md)
+
+### My submitted strategy for Carykh's Prisoner Dilemma Tournament
+
+[Read More](blogs/codingchallenges/prisonerdilemma.md)
