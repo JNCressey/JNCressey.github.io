@@ -1,8 +1,4 @@
-# JNCressey
 Github profile: https://github.com/JNCressey
-
-# Contents
-
 
 # development
 
