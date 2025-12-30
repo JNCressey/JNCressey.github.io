@@ -19,9 +19,17 @@ jobs:
                -X POST \
                -d '{"query":"query($login:String!){ user(login:$login){ repositoriesContributedTo(contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY], first:100){ totalCount }}}","variables":{"login":"'"${GITHUB_REPOSITORY_OWNER}"'"}}' \
                https://api.github.com/graphql \
-            | jq '.data.user.repositoriesContributedTo.totalCount' \
             > contrib_repos.json
 
+#      - name: Run GraphQL query
+#        run: |
+#          curl -H "Authorization: bearer $GH_TOKEN" \
+#               -X POST \
+#               -d '{"query":"query($login:String!){ user(login:$login){ repositoriesContributedTo(contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY], first:100){ totalCount }}}","variables":{"login":"'"${GITHUB_REPOSITORY_OWNER}"'"}}' \
+#               https://api.github.com/graphql \
+#            | jq '.data.user.repositoriesContributedTo.totalCount' \
+#            > contrib_repos.json
+      
       - name: Commit results
         run: |
           git config user.name "github-actions"
