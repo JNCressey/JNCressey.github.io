@@ -1,11 +1,9 @@
 @media print, screen and (min-width: 960px) and (max-width: 1360px){
   section {
-      width: 500px;
-      float: right;
-      padding-bottom: 50px;
+      padding: 50px 0;
+      margin: 0 0 0 300px;
   }
   .wrapper {
-      width: 860px;
       margin: 0 auto;
   }
 }
@@ -15,7 +13,8 @@
   section {
       width: 900px;
       float: right;
-      padding-bottom: 50px;
+      padding: 50px 0;
+      margin: 0;
   }
   .wrapper {
       width: 1260px;
