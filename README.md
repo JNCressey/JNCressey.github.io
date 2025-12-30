@@ -1,5 +1,3 @@
-GitHub profile: <https://github.com/JNCressey>
-
 # Development Projects
 
 ## Oldschool RuneScape Wiki
