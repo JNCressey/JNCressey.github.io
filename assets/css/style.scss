@@ -1,0 +1,10 @@
+---
+---
+
+/* Light theme (default) */
+@import "jekyll-theme-cayman";
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
+  @import "jekyll-theme-midnight";
+}
