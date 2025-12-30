@@ -1,15 +1,10 @@
-/* Default: follow system preference */
-@media (prefers-color-scheme: light) {
-  @import "jekyll-theme-cayman";
-}
-@media (prefers-color-scheme: dark) {
-  @import "jekyll-theme-midnight";
-}
+---
+---
 
-/* User override */
-[data-theme="light"] {
-  @import "jekyll-theme-cayman";
-}
-[data-theme="dark"] {
+/* Light theme (default) */
+@import "jekyll-theme-cayman";
+
+/* Dark theme */
+@media (prefers-color-scheme: dark) {
   @import "jekyll-theme-midnight";
 }
