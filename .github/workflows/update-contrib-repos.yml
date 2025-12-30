@@ -22,7 +22,7 @@ jobs:
             | jq '.data.user.repositoriesContributedTo.totalCount' \
             > contrib_repos.json
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN_CONTRIBUTED_TO_COUNTER }}
           
       - name: Commit results
         run: |
@@ -31,5 +31,3 @@ jobs:
           git add contrib_repos.json
           git commit -m "Update contributed repos count" || echo "No changes"
           git push
-        #env:
-        #  GH_TOKEN: ${{ secrets.GH_TOKEN }}
