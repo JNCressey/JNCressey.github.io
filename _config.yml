@@ -1,6 +1,1 @@
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
+theme: jekyll-theme-cayman
