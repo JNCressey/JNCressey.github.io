@@ -1,1 +1,19 @@
-2
+{
+  "data": {
+    "user": {
+      "repositoriesContributedTo": {
+        "totalCount": 2,
+        "nodes": [
+          {
+            "nameWithOwner": "runelite/plugin-hub",
+            "url": "https://github.com/runelite/plugin-hub"
+          },
+          {
+            "nameWithOwner": "Skretzo/shortest-path",
+            "url": "https://github.com/Skretzo/shortest-path"
+          }
+        ]
+      }
+    }
+  }
+}
