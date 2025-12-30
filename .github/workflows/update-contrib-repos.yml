@@ -30,4 +30,4 @@ jobs:
           git commit -m "Update contributed repos count" || echo "No changes"
           git push
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN_CONTRIBUTIONS_COUNTER }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
