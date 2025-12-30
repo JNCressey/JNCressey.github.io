@@ -2,9 +2,12 @@
   section {
       padding: 0 0 50px 0;
       margin: 0 0 0 300px;
+      float:none;
+      width:revert;
   }
   .wrapper {
-      margin: 0 auto;
+      width:revert;
+      margin: 0;
   }
 }
 
