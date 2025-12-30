@@ -1,11 +1,11 @@
-@media screen and (min-width: 960px){
+@media screen and (min-width: 961px){
   section {
       padding: 0;
       margin: 0 0 0 300px;
       float:none;
       width:revert;
   }
-  .wrapper {
+  div.wrapper {
       width:revert;
       margin: 0 auto;
       max-width:1260px
