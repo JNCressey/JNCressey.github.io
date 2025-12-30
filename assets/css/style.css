@@ -1,0 +1,20 @@
+@media print, screen and (max-width: 1360px){
+  section {
+      width: 500px;
+      float: right;
+      padding-bottom: 50px;
+  }
+  .wrapper {
+      width: 860px;
+      margin: 0 auto;
+  }
+}
+section {
+    width: 900px;
+    float: right;
+    padding-bottom: 50px;
+}
+.wrapper {
+    width: 1260px;
+    margin: 0 auto;
+}
