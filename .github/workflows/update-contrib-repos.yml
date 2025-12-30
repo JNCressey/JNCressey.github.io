@@ -1,0 +1,33 @@
+name: Update contributed repos count
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily
+  workflow_dispatch:       # manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run GraphQL query
+        run: |
+          curl -H "Authorization: bearer $GH_TOKEN" \
+               -X POST \
+               -d '{"query":"query($login:String!){ user(login:$login){ repositoriesContributedTo(contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY], first:100){ totalCount }}}","variables":{"login":"'"${GITHUB_REPOSITORY_OWNER}"'"}}' \
+               https://api.github.com/graphql \
+            | jq '.data.user.repositoriesContributedTo.totalCount' \
+            > contrib_repos.json
+
+      - name: Commit results
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add contrib_repos.json
+          git commit -m "Update contributed repos count" || echo "No changes"
+          git push
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN_CONTRIBUTIONS_COUNTER }}
