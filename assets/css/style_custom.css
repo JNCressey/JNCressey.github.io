@@ -20,6 +20,6 @@ header {
     width: min-content;
     text-align: justify;
 }
-.badges a img {
+.badges img {
     max-width: revert;
 }
