@@ -17,12 +17,24 @@ jobs:
         run: |
           curl -H "Authorization: bearer $GH_TOKEN" \
                -X POST \
-               -d '{"query":"query($login:String!){ user(login:$login){ repositoriesContributedTo(contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY], first:100){ totalCount nodes { nameWithOwner url } }}}","variables":{"login":"'"${GITHUB_REPOSITORY_OWNER}"'"}}' \
+               -d '{ "query" : "query($login:String!){ user(login:$login){ repositoriesContributedTo(contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY], first:100){ totalCount nodes { nameWithOwner url } } repositories(first: 100, ownerAffiliations: OWNER, orderBy:{direction:DESC,field:STARGAZERS}, privacy:PUBLIC) { totalCount nodes { nameWithOwner homepageUrl resourcePath stargazerCount url watchers { totalCount } } } } }", "variables":{"login":"'"${GITHUB_REPOSITORY_OWNER}"'"} }' \
                https://api.github.com/graphql \
             | jq \
             > contrib_repos.json
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN_CONTRIBUTED_TO_COUNTER }}
+
+          
+#      - name: Run GraphQL query
+#        run: |
+#          curl -H "Authorization: bearer $GH_TOKEN" \
+#               -X POST \
+#               -d '{"query":"query($login:String!){ user(login:$login){ repositoriesContributedTo(contributionTypes:[COMMIT,ISSUE,PULL_REQUEST,REPOSITORY], first:100){ totalCount nodes { nameWithOwner url } }}}","variables":{"login":"'"${GITHUB_REPOSITORY_OWNER}"'"}}' \
+#               https://api.github.com/graphql \
+#            | jq \
+#            > contrib_repos.json
+#        env:
+#          GH_TOKEN: ${{ secrets.GH_TOKEN_CONTRIBUTED_TO_COUNTER }}
           
       - name: Commit results
         run: |
