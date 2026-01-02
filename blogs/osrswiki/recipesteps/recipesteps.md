@@ -14,6 +14,14 @@ At first I was unsure which information should be included in the table. If it m
 
 ### Design 1
 
+This was my first design attempt to summarise the steps of a creation process.
+
+The information I included for each step were:
+* the materials and product
+* the time it takes to perform
+* the experience reward
+* the tools and facilities, if it was required
+
 ![](design1.png)
 
 ### Design 2
