@@ -1,4 +1,4 @@
-# recipe steps profit comparison table for old school RuneScape wiki
+# Designing a summary table for the profit/loss at each step of recipes - Oldschool RuneScape Wiki
 
 On the Oldschool Runescape wiki, articles about items that can be created show table with details about a creation recipe, such as the following for *Summer pie*:
 
