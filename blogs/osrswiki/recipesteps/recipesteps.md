@@ -84,5 +84,21 @@ With them as header rows, I could also have space to give titles to the steps. S
 
 ![](design7.png)
 
+## Implementation
+
+To make complex patterns of displaying infomation be reproduced consistently, wikis use parametarised templates. I knew that I should implement the table design as a template to allow it to be re-used wherever its needed.
+
+### Shape of templates
+
+When it comes to the parameters, It had been previously decided, in the discussion about why the `Recipe tabber` template is deprecated, that having parameter names with two indices is too confusing. The base `Recipe` template has numbered parameters for the materials ("mat1", "mat2", etc). The `Recipe tabber` tempalate also needed to index the tabs, so it would have parameters with two numbers in, such as "tab1mat1", "tab1mat2", etc.
+
+The preferred way to created a tabbed collection of recipies was to use the `Recipe` template individually for each recipe, then put those as the tab contents within a `Tabber` template. So I think an appropriate way to handle having multiple steps to present would be to have a template that produces the rows for a single step. Then multiple of these templates can be placed sequentially within a table - that will produce the rows in the table to look like the above design.
+
+To wrap the produced rows within an appropriate table, I would have another template that produces the table container syntax, the main heading row, and insert the content passed to it by the parameter.
+
+### Cost column calculations
+
+---
+
 *Created using intellectual property belonging to Jagex Limited under the terms of [Jagex's Fan Content Policy](https://legal.jagex.com/docs/policies/fan-content-policy).
 This content is not endorsed by or affiliated with Jagex.*
