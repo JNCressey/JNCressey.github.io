@@ -66,13 +66,13 @@ I added the requirements for each step in a similar way to I had in design 3.
 
 ### Design 6
 
-I didn't quite like how I was displaying the requirements for a step.
+I didn't like how I was displaying the requirements for a step.
 
-The fact that those cells ocupyed the same space vertically as the items caused a few problems:
+The fact that those cells occupied the same space vertically as the items caused a few problems:
 * It seems too cluttered and it would be confusing to add headings for the various requirement fields.
-* It was also difficult to get the cells to equally share the width. It involved adding a could of pretend column for spacing, where the item rows and requirement rows would merge different columns. It would also be confusing to other people trying to edit the table.
+* The way that I using an extra pretend column for alignment made the markup not be a good semantic representation of the content, and it would also be confusing to other people to edit.
 
-So I decided to move the requirements into a combined list in a large cell to the side.
+I had the idea to move the requirements into a combined list in a large cell to the side. This allowed listing many requirements without using a lot of horizontal space over separate columns for each requirement.
 
 ![](design6.png)
 
