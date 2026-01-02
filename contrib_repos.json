@@ -13,6 +13,91 @@
             "url": "https://github.com/Skretzo/shortest-path"
           }
         ]
+      },
+      "repositories": {
+        "totalCount": 8,
+        "nodes": [
+          {
+            "nameWithOwner": "JNCressey/noHintArrow",
+            "homepageUrl": "",
+            "resourcePath": "/JNCressey/noHintArrow",
+            "stargazerCount": 0,
+            "url": "https://github.com/JNCressey/noHintArrow",
+            "watchers": {
+              "totalCount": 0
+            }
+          },
+          {
+            "nameWithOwner": "JNCressey/htwins-prisoners-dilemma",
+            "homepageUrl": "",
+            "resourcePath": "/JNCressey/htwins-prisoners-dilemma",
+            "stargazerCount": 0,
+            "url": "https://github.com/JNCressey/htwins-prisoners-dilemma",
+            "watchers": {
+              "totalCount": 1
+            }
+          },
+          {
+            "nameWithOwner": "JNCressey/martingale",
+            "homepageUrl": null,
+            "resourcePath": "/JNCressey/martingale",
+            "stargazerCount": 0,
+            "url": "https://github.com/JNCressey/martingale",
+            "watchers": {
+              "totalCount": 1
+            }
+          },
+          {
+            "nameWithOwner": "JNCressey/jnc-minecraft-datapack-jigsaw-dungeon",
+            "homepageUrl": null,
+            "resourcePath": "/JNCressey/jnc-minecraft-datapack-jigsaw-dungeon",
+            "stargazerCount": 0,
+            "url": "https://github.com/JNCressey/jnc-minecraft-datapack-jigsaw-dungeon",
+            "watchers": {
+              "totalCount": 1
+            }
+          },
+          {
+            "nameWithOwner": "JNCressey/JNCressey.github.io",
+            "homepageUrl": "https://JNCressey.github.io",
+            "resourcePath": "/JNCressey/JNCressey.github.io",
+            "stargazerCount": 0,
+            "url": "https://github.com/JNCressey/JNCressey.github.io",
+            "watchers": {
+              "totalCount": 1
+            }
+          },
+          {
+            "nameWithOwner": "JNCressey/hanoi-no-recursion",
+            "homepageUrl": "",
+            "resourcePath": "/JNCressey/hanoi-no-recursion",
+            "stargazerCount": 0,
+            "url": "https://github.com/JNCressey/hanoi-no-recursion",
+            "watchers": {
+              "totalCount": 1
+            }
+          },
+          {
+            "nameWithOwner": "JNCressey/MPMP_BankBalance",
+            "homepageUrl": null,
+            "resourcePath": "/JNCressey/MPMP_BankBalance",
+            "stargazerCount": 0,
+            "url": "https://github.com/JNCressey/MPMP_BankBalance",
+            "watchers": {
+              "totalCount": 1
+            }
+          },
+          {
+            "nameWithOwner": "JNCressey/mail-merge-pdf-split",
+            "homepageUrl": null,
+            "resourcePath": "/JNCressey/mail-merge-pdf-split",
+            "stargazerCount": 0,
+            "url": "https://github.com/JNCressey/mail-merge-pdf-split",
+            "watchers": {
+              "totalCount": 1
+            }
+          }
+        ]
       }
     }
   }
