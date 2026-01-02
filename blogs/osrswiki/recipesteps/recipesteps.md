@@ -22,8 +22,6 @@ The information I included for each step were:
 * the experience reward
 * the tools and facilities, if it was required
 
-I left out the level requirments and any quest requirements as it was already feeling cluttered.
-
 For the information that wasn't about items, I placed them in a row that separated the materials from the product. I didn't want to put each part of that information as separate columns, as that would take up a lot of horizontal width.
 
 ![](design1.png)
