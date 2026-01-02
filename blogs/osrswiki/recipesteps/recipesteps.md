@@ -1,14 +1,14 @@
-# Designing a summary table for the profit/loss at each step of recipes - Oldschool RuneScape Wiki
+# Designing a summary table for the profit/loss at each step of recipes - Old School RuneScape Wiki
 
-On the Oldschool Runescape wiki, articles about items that can be created show table with details about a creation recipe, produced using a Wiki template called `Recipe`, such as the following for *Summer pie*:
+On the Old School RuneScape wiki, articles about items that can be created show table with details about a creation recipe, produced using a wiki template called `Recipe`, such as the following for *Summer pie*:
 
 ![](recipe.png)
 
-However, many items have multiple steps in their creation. I noticed that the information for each of the steps was often spread across multiple articles - each item's article having the details of the final step that creates it. For example the above table that is from the article of the *Summer pie* simply shows details about the final step of cooking a *Raw summer pie*.
+However, many items have multiple steps in their creation. I noticed that the information for each of the steps was often spread across multiple articles - each item's article having the details of the final step that creates it. For example, the above table that is from the article of the *Summer pie* simply shows details about the final step of cooking a *Raw summer pie*.
 
 I decided I would make a table to collect the information together.
 
-At first I was unsure which information should be included in the table. If it misses something essential, then people will still need to go to multiple pages. But, if it contains all the information then it would be too cluttered.
+At first, I was unsure which information should be included in the table. If it misses something essential, then people will still need to go to multiple pages. But, if it contains all the information, then it would be too cluttered.
 
 ## Prototype Designs
 
@@ -20,7 +20,7 @@ The information I included for each step were:
 * the materials and product
 * the time it takes to perform (measure in game ticks)
 * the experience reward
-* the tools and facilities, if it was required
+* the tools and facilities, if required
 
 For the information that wasn't about items, I placed them in a row that separated the materials from the product. I didn't want to put each part of that information as separate columns, as that would take up a lot of horizontal width.
 
@@ -38,7 +38,7 @@ With fewer fields of extra information to present, I considered putting them int
 
 A lot of the steps for the example of summer pie required no tool or facility, a lot of space seemed wasted just saying 'none'. So, for design 3, I moved these requirements back to between the materials and product, but left a row out if it was only saying 'none'.
 
-Making the tool and facility cells equally share the horizontal space was dificult, since the boundary wouldn't be lined up with any of the other columns. I achieved it by adding an extra column, so there would be 4 columns. 
+Making the tool and facility cells equally share the horizontal space was difficult, since the boundary wouldn't be lined up with any of the other columns. I achieved it by adding an extra column, so there would be 4 columns. 
 * On rows with the tool and facility, I would have the first two merged for the tool and the other two merged for the facility.
 * On rows with the items, I would merge the two middle cells for the name of the item.
 
