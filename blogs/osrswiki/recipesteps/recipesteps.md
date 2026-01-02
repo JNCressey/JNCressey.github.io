@@ -38,6 +38,10 @@ With fewer fields of extra information to present, I considered putting them int
 
 A lot of the steps for the example of summer pie required no tool or facility, a lot of space seemed wasted just saying 'none'. So, for design 3, I moved these requirements back to between the materials and product, but left a row out if it was only saying 'none'.
 
+Making the tool and facility cells equally share the horizontal space was dificult, since the boundary wouldn't be lined up with any of the other columns. I achieved it by adding an extra column, so there would be 4 columns. 
+* On rows with the tool and facility, I would have the first two merged for the tool and the other two merged for the facility.
+* On rows with the items, I would merge the two middle cells for the name of the item.
+
 ![](design3.png)
 
 ### Design 4
@@ -55,6 +59,8 @@ I started by simply taking the materials section from the existing `Recipe` temp
 ![](design4.png)
 
 ### Design 5
+
+I added the requirements for each step in a similar way to I had in design 3.
 
 ![](design5.png)
 
