@@ -8,7 +8,7 @@
 
 ### Recipe steps profit comparison table
 
-[Read More](blogs/osrswiki/recipesteps.md)
+[Read More](blogs/osrswiki/recipesteps/recipesteps.md)
 
 
 ## RuneLite
