@@ -1,6 +1,10 @@
 # recipe steps profit comparison table for old school RuneScape wiki
 
-Many items have multiple steps in their creation. I noticed that the information for each of the steps was often spread across multiple articles - each item's article having the details of the final step that creates it. 
+On the Oldschool Runescape wiki, articles about items that can be created show table with details about a creation recipe, such as the following for *Summer pie*:
+
+![](recipe.png)
+
+However, many items have multiple steps in their creation. I noticed that the information for each of the steps was often spread across multiple articles - each item's article having the details of the final step that creates it. For example the above table that is from the article of the *Summer pie* simply shows details about the final step of cooking a *Raw summer pie*.
 
 I decided I would make a table to collect the information together.
 
