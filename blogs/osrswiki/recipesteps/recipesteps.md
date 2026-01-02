@@ -1,6 +1,6 @@
 # Designing a summary table for the profit/loss at each step of recipes - Oldschool RuneScape Wiki
 
-On the Oldschool Runescape wiki, articles about items that can be created show table with details about a creation recipe, such as the following for *Summer pie*:
+On the Oldschool Runescape wiki, articles about items that can be created show table with details about a creation recipe, produced using a Wiki template called `Recipe`, such as the following for *Summer pie*:
 
 ![](recipe.png)
 
@@ -18,25 +18,41 @@ This was my first design attempt to summarise the steps of a creation process.
 
 The information I included for each step were:
 * the materials and product
-* the time it takes to perform
+* the time it takes to perform (measure in game ticks)
 * the experience reward
 * the tools and facilities, if it was required
+
+I left out the level requirments and any quest requirements as it was already feeling cluttered.
+
+For the information that wasn't about items, I placed them in a row that separated the materials from the product. I didn't want to put each part of that information as separate columns, as that would take up a lot of horizontal width.
 
 ![](design1.png)
 
 ### Design 2
 
+I decided that the times and experience rewards were causing too much clutter. 
+
+With fewer fields of extra information to present, I considered putting them into their own columns for design 2.
+
 ![](design2.png)
 
 ### Design 3
+
+A lot of the steps for the example of summer pie required no tool or facility, a lot of space seemed wasted just saying 'none'. So, for design 3, I moved these requirements back to between the materials and product, but left a row out if it was only saying 'none'.
 
 ![](design3.png)
 
 ### Design 4
 
-I decided that, for simply explaining the steps involving partialy-made items that aren't traded, the tables of the previous designs would be too cluttered and unnecessary compared to the already existing `Instructions` template which simply lists a sentence of what to do for each step.
+Since I was using the example of the summer pie, all the intermediate steps produced untradable items, so adding item prices wouldn't be useful for this example. For such an example, it seemed that the only usefulness from having the table of steps was to act as instructions for how to make the pie. 
 
-To be useful, the table should compare the profits made by performing each step of creation.
+The `Instructions` template that already exists seemed to do a decent job of listing such instructions:
+
+![](instructions.png)
+
+So I decided that for such items, where the intermediate products are untradable, the articles can be left using the `Instructions` template. And with this table I will focus on a more useful domain of information: comparing the profit/loss you get from performing the various steps.
+
+I started by simply taking the materials section from the existing `Recipe` template, and placing them next to a column with step numbers.
 
 ![](design4.png)
 
