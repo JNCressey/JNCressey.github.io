@@ -1,3 +1,5 @@
+<div style="color:dark-red">this blog is not complete yet, still to finish writing up</div>
+
 # Attempt to document the AI scripting language and configurable game constants in Tzar: The Burden of the Crown
 
 There is a choice of AIs to assign to a each player when setting up a game. For human players, this AI will operate when the player turns on AI assistance.
