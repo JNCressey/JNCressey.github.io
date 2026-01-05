@@ -1,3 +1,5 @@
+<div style="color:darkred">this blog is not complete yet, still to finish writing up</div>
+
 # Designing a summary table for the profit/loss at each step of recipes - Old School RuneScape Wiki
 
 On the Old School RuneScape wiki, articles about items that can be created show table with details about a creation recipe, produced using a wiki template called `Recipe`, such as the following for *Summer pie*:
