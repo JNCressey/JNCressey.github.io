@@ -1,3 +1,5 @@
+<div style="color:darkred">this blog is not complete yet, still to finish writing up</div>
+
 # Plugin for RuneLite: No Hint-Arrow
 
 I made an accessibility-focused plugin for the RuneLite client, a client for the game RuneScape.
