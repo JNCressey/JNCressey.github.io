@@ -2,6 +2,8 @@
 
 # Plugin for RuneLite: No Hint-Arrow
 
+My repo: https://github.com/JNCressey/noHintArrow
+
 I made an accessibility-focused plugin for the RuneLite client, a client for the game RuneScape.
 
 In the game, when there are tutorials or something the game wants to point to, it produces a flashing yellow arrow.
