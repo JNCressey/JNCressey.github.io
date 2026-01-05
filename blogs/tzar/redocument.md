@@ -1,4 +1,4 @@
-<div style="color:dark-red">this blog is not complete yet, still to finish writing up</div>
+<div style="color:darkred">this blog is not complete yet, still to finish writing up</div>
 
 # Attempt to document the AI scripting language and configurable game constants in Tzar: The Burden of the Crown
 
