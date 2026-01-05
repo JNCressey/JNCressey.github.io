@@ -1,3 +1,5 @@
+<div style="color:darkred">this blog is not complete yet, still to finish writing up</div>
+
 # Barcode sheet generator
 
 I made a Google AppsScript to generate a sheel of labels.
