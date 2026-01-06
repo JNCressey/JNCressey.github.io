@@ -18,9 +18,9 @@ The improvment was working; hovering the mouse cursor over a fairy code showed a
 1. There was no visual indication that the extra information was there.
 2. I read that using the `title` attribute in this way isn't accessible to assistive technologies.
 
-Instead of using the `title` attribute, now, the original `<span>` element is put within an `<abbr>` element. This allowed the issues to be addressed:
-1. There is a visual indication by a dotted underline and the cursor has a question mark when pointing at it.
-2. The `aira-label` text is set for assistive technologies to read out both the fairy code and the location name.
+Instead of using the `title` attribute, I put the original `<span>` element inside an `<abbr>` element. This allowed the issues to be addressed:
+1. There is visual indication by a dotted underline and, when pointing at it, the cursor has a question mark attached.
+2. I set the `aira-label` text such that assistive technologies will read out both the fairy code and the location name.
 
 *Created using intellectual property belonging to Jagex Limited under the terms of [Jagex's Fan Content Policy](https://legal.jagex.com/docs/policies/fan-content-policy).
 This content is not endorsed by or affiliated with Jagex.*
