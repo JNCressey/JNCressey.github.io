@@ -22,9 +22,5 @@ Instead of using the title attribute, now, the original styled `<span>` node is 
 1. There is a visual indication by a dotted underline and the cursor has a question mark when pointing at the node.
 2. The `aira-label` text is set for assistive technologies to read out both the fairy code and the location name.
 
-Finally, there were a few complications that I fixed: 
-* The output was erroneous when the template was passed a fairy code that had no location defined. The template needed to work with such fairy codes because, sometimes, a fairy code without a location is used within a combination code. I made the module simply return the original version of the stylised `<span>` node when a location name wasn't defined. This also has the benefit of being a safe fallback when a new fairy code is added to the game and is mentioned in an article before the location name is added to the module.
-
-
 *Created using intellectual property belonging to Jagex Limited under the terms of [Jagex's Fan Content Policy](https://legal.jagex.com/docs/policies/fan-content-policy).
 This content is not endorsed by or affiliated with Jagex.*
