@@ -15,7 +15,7 @@ The original output was a `<span>` node containing the stylised code, so my firs
 2. I read that using the `title` attribute in this way isn't accessible to assistive technologies.
 
 Instead of using the title attribute, now, the original styled `<span>` node is put within an `<abbr>` node. This allowed the issues to be addressed:
-1. By default, these visually show a dotted underline and the cursor has a question mark when pointing at the node.
+1. There is a visual indication by a dotted underline and the cursor has a question mark when pointing at the node.
 2. The `aira-label` text is set for assistive technologies to read out both the fairy code and the location name.
 
 There were a couple of complications to fix. 
