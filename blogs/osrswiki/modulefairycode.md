@@ -6,9 +6,7 @@ As they are a frequently used transportation method in the game, wiki articles o
 
 Sometimes, a fairy code is mentioned on an article, but it isn't exactly clear where the corresponding fairy ring is located. I decided I would update the template to add a tooltip that would show the official location name for that fairy code. 
 
-The template's functionality was provided by a Lua module that prepared the HTML code for the fairy code to put in the page.
-
-This page shows the changes I made to the module: [version diff for my edits](https://oldschool.runescape.wiki/?title=Module:Fairycode&diff=15094353&oldid=14437836)&#8203;<sup>([archive.today&nbsp;copy](http://archive.today/9VFLi))</sup>
+The template's functionality was provided by a Lua module that prepared the HTML code for the fairy code to put in the page. This page shows the changes I made to the module: [version diff for my edits](https://oldschool.runescape.wiki/?title=Module:Fairycode&diff=15094353&oldid=14437836)&#8203;<sup>([archive.today&nbsp;copy](http://archive.today/9VFLi))</sup>
 
 To start, I included a dictionary mapping fairy codes to the location names and coded that into a local variable for the module.
 
