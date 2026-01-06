@@ -10,10 +10,10 @@ The template's functionality was provided by a Lua module that prepared the HTML
 
 To start, I encoded a mapping from the fairy codes to the corresponding location names as key-value pairs. In Lua, this is implemented with the table type. I wrote the mapping in the syntax for a table literal and assigned that to a variable in the module.
 
-The original output was a `<span>` node containing the stylised code, so my first version was to add the location as a `title` arttribute to that node. This worked when hovering the mouse over a fairy code. But this approach had done issues: 
-1. There was no visual indication that the extra information is there.
-2.  It didn't work on mobile.
-3.  I read that using the `title` attribute in this way isn't accessible to assistive technologies.
+The original output was a `<span>` node containing the stylised code, so my first version was to add the location as a `title` arttribute to that node. This worked when hovering the mouse over a fairy code. But this approach had some issues: 
+1. There was no visual indication that the extra information was there.
+2. It didn't work on mobile.
+3. I read that using the `title` attribute in this way isn't accessible to assistive technologies.
 
 Instead of using the title attribute, now it puts the original node inside a `<abbr>` node.
 1. By default these visually show a dotted underline and the cursor has a question mark when pointing at the node.
