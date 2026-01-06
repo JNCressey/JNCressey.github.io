@@ -24,6 +24,7 @@ a {
   text-decoration: underline;
 }
 
-a:hover {
+a:hover,
+a:focus {
   font-weight: unset;
 }
