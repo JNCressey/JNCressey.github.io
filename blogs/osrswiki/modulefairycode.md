@@ -1,4 +1,4 @@
-# Location name enhancement to the Fairycode module on the Runescape wiki
+# Location name tooltip enhancement to the Fairycode module on the Runescape wiki
 
 Fairy rings are circle of mushrooms, at specific locations in the world, used in the game for teleportation. Each fairy ring has a 3 letter code, as an address. You dial a code from any fairy ring to be teleported to the ring that corresponds to the entered code.
 
