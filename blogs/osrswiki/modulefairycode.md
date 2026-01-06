@@ -14,7 +14,7 @@ The original output was a `<span>` element which used CSS to style the three let
 
 This change caused a problem with another template. There was a map of the world which labeled the locations of the fairy rings with their fairy code, however, the output of this template was being used as arguments to the `Map` template. Special characters in the `Fairycode` template's output were causing syntax bugs when inserted into the arguments of the call. I replaced special characters in my output with the HTML escape-sequences and made a function to process the location name, escaping any special characters, before outputting. It then worked as expected.
 
-The improvment was working, hovering the mouse cursor over a fairy code showed a tooltip with the location name. However, the approach of using the `title` attribute had some issues: 
+The improvment was working; hovering the mouse cursor over a fairy code showed a tooltip with the location name. However, the approach of using the `title` attribute had some issues: 
 1. There was no visual indication that the extra information was there.
 2. I read that using the `title` attribute in this way isn't accessible to assistive technologies.
 
