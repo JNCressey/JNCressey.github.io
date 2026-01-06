@@ -8,7 +8,7 @@ Sometimes, a fairy code is mentioned on an article, but it isn't exactly clear w
 
 The template's functionality was provided by a Lua module that prepared the HTML code for the fairy code to put in the page. This page shows the changes I made to the module: [version diff for my edits](https://oldschool.runescape.wiki/?title=Module:Fairycode&diff=15094353&oldid=14437836)&#8203;<sup>([archive.today&nbsp;copy](http://archive.today/9VFLi))</sup>
 
-To start, I encoded a mapping from the fairy codes to the location names as key-value pairs. In Lua, the table type is used for arrays and dictionaries. I wrote the mapping in the syntax for a table literal and assigned that to a variable in the module.
+To start, I encoded a mapping from the fairy codes to the location names as key-value pairs. In Lua, this is implemented with the table type. I wrote the mapping in the syntax for a table literal and assigned that to a variable in the module.
 
 The original output was a `<span>` node containing the stylised code, so my first version was to add the location as a `title` arttribute to that node. This worked when hovering the mouse over a fairy code. But this approach had done issues: 
 1. There was no visual indication that the extra information is there.
