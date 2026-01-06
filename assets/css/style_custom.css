@@ -30,3 +30,10 @@ a:not(:has(img)):hover,
 a:not(:has(img)):focus {
   font-weight: unset;
 }
+
+code.highlighter-rouge {
+  background: #e5e5e5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.2em 0.4em;
+}
