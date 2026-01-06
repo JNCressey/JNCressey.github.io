@@ -20,7 +20,7 @@ Instead of using the title attribute, now, the original styled `<span>` node is 
 
 Finally, there were a few complications that I fixed: 
 * The output was erroneous when the template was passed a fairy code that had no location defined. The template needed to work with such fairy codes because, sometimes, a fairy code without a location is used within a combination code. I made the module simply return the original version of the stylised `<span>` node when a location name wasn't defined. This also has the benefit of being a safe fallback when a new fairy code is added to the game and is mentioned in an article before the location name is added to the module.
-* The output of this template was also passed into the arguments of other templates for using it as labels, but the output now was inserting special characters that would break the other template calls. I replaced special characters in my output with their HTML escape-sequence and made a function to process the location name, escaping any special characters, before outputting.
+* The output of this template was also passed into the arguments of other templates for using it as labels but, the template, at this stage, was inserting special characters that would break the other template's calls. I replaced special characters in my output with their HTML escape-sequence and made a function to process the location name, escaping any special characters, before outputting.
 
 
 *Created using intellectual property belonging to Jagex Limited under the terms of [Jagex's Fan Content Policy](https://legal.jagex.com/docs/policies/fan-content-policy).
