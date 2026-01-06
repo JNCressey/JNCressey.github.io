@@ -4,7 +4,7 @@
 
 ### Location name tooltip enhancement to the Fairycode module
 
-Fairy rings are circles of mushrooms, at specific locations in the world, used in the game for teleportation. Each fairy ring has a 3 letter code. 
+Fairy rings are circles of mushrooms, at specific locations in the game's world, used for teleportation. Each fairy ring has a 3 letter code. 
 
 The wiki uses a template to style the codes in articles. I added tooltips to that, to show the location names.
 
