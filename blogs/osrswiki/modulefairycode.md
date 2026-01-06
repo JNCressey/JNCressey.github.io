@@ -15,7 +15,7 @@ The original output was a `<span>` node containing the stylised code, so my firs
 2. It didn't work on mobile.
 3. I read that using the `title` attribute in this way isn't accessible to assistive technologies.
 
-Instead of using the title attribute, now it puts the original node inside a `<abbr>` node.
+Instead of using the title attribute, now, the original styled `<span>` node is put within an `<abbr>` node. This allowed the issues to be addressed:
 1. By default these visually show a dotted underline and the cursor has a question mark when pointing at the node.
 2. Now that the `<abbr>` node causes the location name to appear popped out of the node, it also worked on mobile when tapping on the fairy code. Although it only worked when the mobile requested the desktop site, it still didn't work when viewing the mobile site.
 3. The `aira-label` text is set for assistive technologies to read out both the fairy code and the location name.
