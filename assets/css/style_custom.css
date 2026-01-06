@@ -19,12 +19,3 @@ header {
 body {
   color: #111;
 }
-
-a {
-  text-decoration: underline;
-}
-
-a:hover,
-a:focus {
-  font-weight: unset;
-}
