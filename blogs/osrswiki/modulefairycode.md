@@ -12,7 +12,7 @@ To start, I encoded a mapping from the fairy codes to the corresponding location
 
 The original output was a `<span>` node containing the stylised code, so my first version was to add the location as a `title` arttribute to that node. This worked when hovering the mouse over a fairy code. But this approach had some issues: 
 1. There was no visual indication that the extra information was there.
-2. It didn't work on mobile.
+2. It didn't work on touch screens.
 3. I read that using the `title` attribute in this way isn't accessible to assistive technologies.
 
 Instead of using the title attribute, now, the original styled `<span>` node is put within an `<abbr>` node. This allowed the issues to be addressed:
