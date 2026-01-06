@@ -19,3 +19,11 @@ header {
 body {
   color: #111;
 }
+
+a {
+  text-decoration: underline;
+}
+
+a:hover {
+  font-weight: unset;
+}
