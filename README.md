@@ -6,7 +6,7 @@
 
 Fairy rings are circles of mushrooms, at specific locations in the game's world, used for teleportation. Each fairy ring has a 3 letter code. 
 
-The wiki uses a template to style the codes in articles. I added tooltips to that, to show the location names.
+The wiki uses a template to style the codes in articles. I added tooltips to the templated styling, to show the location names.
 
 [Read More](blogs/osrswiki/modulefairycode.md)
 
