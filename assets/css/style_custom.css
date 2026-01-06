@@ -20,11 +20,11 @@ body {
   color: #111;
 }
 
-a {
+a:not(:has(img)) {
   text-decoration: underline;
 }
 
-a:hover,
-a:focus {
+a:not(:has(img)):hover,
+a:not(:has(img)):focus {
   font-weight: unset;
 }
