@@ -12,13 +12,11 @@ To start, I encoded a mapping from the fairy codes to the corresponding location
 
 The original output was a `<span>` node containing the stylised code, so my first version was to add the location as a `title` arttribute to that node. This worked when hovering the mouse over a fairy code. But this approach had some issues: 
 1. There was no visual indication that the extra information was there.
-2. It didn't work on touch screens.
-3. I read that using the `title` attribute in this way isn't accessible to assistive technologies.
+2. I read that using the `title` attribute in this way isn't accessible to assistive technologies.
 
 Instead of using the title attribute, now, the original styled `<span>` node is put within an `<abbr>` node. This allowed the issues to be addressed:
 1. By default, these visually show a dotted underline and the cursor has a question mark when pointing at the node.
-2. Now that the `<abbr>` node causes the location name to appear popped out of the node, it also worked on mobile when tapping on the fairy code. Although it only worked when the mobile requested the desktop site, it still didn't work when viewing the mobile site.
-3. The `aira-label` text is set for assistive technologies to read out both the fairy code and the location name.
+2. The `aira-label` text is set for assistive technologies to read out both the fairy code and the location name.
 
 There were a couple of complications to fix. 
 * Sometimes, a code that doesn't have a location assigned is used within a combination code. I made the module simply return the original version of the fairy code `<span>` node when a location name wasn't defined. This also has the benefit of being a safe fallback when a new fairy code is added to the game and is mentioned in an article before the location name is added to the module.
