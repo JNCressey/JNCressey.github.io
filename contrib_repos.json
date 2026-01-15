@@ -15,8 +15,16 @@
         ]
       },
       "repositories": {
-        "totalCount": 8,
+        "totalCount": 9,
         "nodes": [
+          {
+            "nameWithOwner": "JNCressey/plugin-hub",
+            "stargazerCount": 0,
+            "url": "https://github.com/JNCressey/plugin-hub",
+            "watchers": {
+              "totalCount": 0
+            }
+          },
           {
             "nameWithOwner": "JNCressey/noHintArrow",
             "stargazerCount": 0,
