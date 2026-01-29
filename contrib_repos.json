@@ -2,11 +2,15 @@
   "data": {
     "user": {
       "repositoriesContributedTo": {
-        "totalCount": 2,
+        "totalCount": 3,
         "nodes": [
           {
             "nameWithOwner": "runelite/plugin-hub",
             "url": "https://github.com/runelite/plugin-hub"
+          },
+          {
+            "nameWithOwner": "Zoinkwiz/quest-helper",
+            "url": "https://github.com/Zoinkwiz/quest-helper"
           },
           {
             "nameWithOwner": "Skretzo/shortest-path",
