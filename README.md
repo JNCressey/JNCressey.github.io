@@ -10,10 +10,6 @@ The wiki uses a template to style the codes in articles. I added tooltips to the
 
 [Read More](blogs/osrswiki/modulefairycode.md)
 
-### Recipe steps profit comparison table
-
-[Read More](blogs/osrswiki/recipesteps/recipesteps.md)
-
 
 ## RuneLite
 
