@@ -42,10 +42,6 @@ The wiki uses a template to style the codes in articles. I added tooltips to the
 
 [Read More](blogs/codingchallenges/hanoinorecursion.md)
 
-### The sequence of bet amounts when using the Martingale strategy
-
-[Read More](blogs/codingchallenges/martingalegambling.md)
-
 ### Parker's Maths Puzzles 'MPMP: The 1 Million Bank Balance puzzle'
 
 [Read More](blogs/codingchallenges/mpmpbank.md)
