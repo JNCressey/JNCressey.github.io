@@ -4,7 +4,7 @@ My repo: [https://github.com/JNCressey/UnrealTournament3-InfiniteAmmoMutator](ht
 
 ## Intro
 
-The computer game "Unreal Tournament 3" has a system for small modifications to be selected when you start a game. It calls these small mods “mutators”. I made a mutator that gives the weapons infinite ammo.
+The computer game "Unreal Tournament 3" has a system for small modifications to be selected when you start a game. It calls these small mods "mutators". I made a mutator that gives the weapons infinite ammo.
 
 I was looking through the available community-made mutators on unreal archive for ones that interested me to add to my game, when I wanted one that would give the weapons infinite ammo. There wasn’t one so I decided to make it.
 
