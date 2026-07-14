@@ -1,5 +1,15 @@
 # Development Projects
 
+## Unreal Tournament 3 Mutators
+
+The computer game "Unreal Tournament 3" has a system for small modifications to be selected when you start a game. It calls these small mods "mutators". 
+
+### Infinite Ammo Mutator
+
+I made a mutator that gives the weapons infinite ammo.
+
+[Read More](blogs/ut3-mutators/infiniteAmmoMutator.md)
+
 ## Oldschool RuneScape Wiki
 
 ### Location name tooltip enhancement to the Fairycode module
