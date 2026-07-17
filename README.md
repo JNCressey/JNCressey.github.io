@@ -10,6 +10,12 @@ I made a mutator that gives the weapons infinite ammo.
 
 [Read More](blogs/ut3-mutators/infiniteAmmoMutator.md)
 
+### Shuffle Power-ups Mutator
+
+I made a mutator that randomly replaces the powerups at the start of a match.
+
+[Read More](blogs/ut3-mutators/shufflePowerupsMutator.md)
+
 ## Oldschool RuneScape Wiki
 
 ### Location name tooltip enhancement to the Fairycode module
