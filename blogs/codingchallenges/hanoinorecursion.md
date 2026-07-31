@@ -2,4 +2,4 @@
 
 # A solver for the Tower of Hanoi puzzle using memorised iteration instead of recursion
 
-https://github.com/JNCressey/hanoi-no-recursion
+My repo: [https://github.com/JNCressey/hanoi-no-recursion](https://github.com/JNCressey/hanoi-no-recursion)
