@@ -16,7 +16,7 @@
       const response = await fetch(api_url);
       const reponseJSON = await response.json();
       const public_repos = reponseJSON.public_repos;
-      if(!Number.isFinite(public_repos)){ return; }
+      if(!(Number.isFinite(public_repos) && public_repos>0)){ return; }
 
       const respoistoryBagdge = document.getElementById("respoistoryBagdge");
       respoistoryBagdge.src=`https://img.shields.io/badge/Repositories-${public_repos}-blue?logo=github`;
