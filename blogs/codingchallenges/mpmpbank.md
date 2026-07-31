@@ -2,4 +2,4 @@
 
 # Solution to Matt Parker's Maths Puzzles 'MPMP: The 1 Million Bank Balance puzzle'
 
-My repo: https://github.com/JNCressey/MPMP_BankBalance
+My repo: [https://github.com/JNCressey/MPMP_BankBalance](https://github.com/JNCressey/MPMP_BankBalance)
