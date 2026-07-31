@@ -6,6 +6,8 @@ My repo: [https://github.com/JNCressey/UnrealTournament3-ShufflePowerupsMutator]
 
 The computer game "Unreal Tournament 3" has a system for small modifications to be selected when you start a game. It calls these small mods "mutators". I made a mutator that introduces some randomness to a game by shuffling the various powerups at the start of a match.
 
+I shared the mutator on Unreal Archive: [https://unrealarchive.org/unreal-tournament-3/mutators/S/shuffle-powerups_2f18c019.html](https://unrealarchive.org/unreal-tournament-3/mutators/S/shuffle-powerups_2f18c019.html)
+
 ## How It Works
 
 The game engine provides a way to run some code from the mutator whenever an actor (i.e. a game object) is spawned for the game, by implementing the method `CheckReplacement(Actor other)`. This allows the mutator to spawn a replacement and prevent the original from appearing in game.
