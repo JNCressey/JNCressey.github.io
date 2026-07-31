@@ -18,7 +18,7 @@ I have made it display gridlines when viewed on a screen to more easily preview 
 
 ## By URL Parameters
 
-This dynamic example showcases the ability to prepare the inner html of a label, and have a sheet produced into the print arrangement. This implementation uses URL parameters to pass in the data and client-side JavaScript to build the page. This makes live example possible on GitHub Pages, since GitHub Pages has no option for server-side scripting.
+This dynamic example showcases the ability to prepare the inner HTML of a label, and have a sheet produced into the print arrangement. This implementation uses URL parameters to pass in the data and client-side JavaScript to build the page. This makes live example possible on GitHub Pages, since GitHub Pages has no option for server-side scripting.
 
 [example link](https://jncressey.github.io/blogs/barcodes/example/url-param/labels-print-a4-avery-L7060--L7160-3x7-landscape.html?labelHTML=%09%09%3Cdiv%20style%3D%22%2F*background-color%3Ayellow*%2F%3Bheight%3A100%25%3Bwidth%3A100%25%3Bbox-sizing%3Aborder-box%3Bpadding%3A2mm%3Bdisplay%3Aflex%3Bflex-direction%3Acolumn%3B%22%3E%0A%09%09%09%3Cp%20style%3D%27width%3A100%25%3Btext-align%3Acenter%3Bmargin%3A0%3Bfont-family%3Asans-serif%27%3ELorem%20Ipsum%3C%2Fp%3E%0A%09%09%09%3Cdiv%20style%3D%22flex%3A1%201%20auto%3Btext-align%3Acenter%3Bmin-height%3A0%3B%22%3E%0A%09%09%09%09%3Cimg%20src%3D%22https%3A%2F%2Fjncressey.github.io%2Fblogs%2Fbarcodes%2Fexample%2Fassets%2F500x300-placeholder.png%22%20style%3D%22width%3A100%25%3Bheight%3A100%25%3Bobject-fit%3Acontain%22%3E%0A%09%09%09%3C%2Fdiv%3E%0A%09%09%3C%2Fdiv%3E)
 
