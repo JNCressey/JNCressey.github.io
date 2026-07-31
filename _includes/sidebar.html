@@ -3,11 +3,11 @@
   <!-- todo figure out why this is producing a badge that says [Repositories|invalid] src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/{{ site.github.owner_name }}&label=Repositories&query=%24.public_repos&color=blue&logo=github" -->
   <a href="{{ site.github.owner_url }}?tab=repositories">
     <img
-      src="https://img.shields.io/badge/Repositories-11-blue?logo=github"
+      id="repo_count"
       alt="Public repositories"
     >
   </a>
-  <div id="repo_count"></div>
+      <!--src="https://img.shields.io/badge/Repositories-11-blue?logo=github"-->
   
   <script>
     let public_repos;
@@ -19,7 +19,7 @@
       console.log(reponseJSON);
       public_repos = reponseJSON.public_repos;
       console.log(public_repos);
-      document.getElementById("repo_count").textContent = `public repos=${public_repos}`;
+      document.getElementById("repo_count").src=`https://img.shields.io/badge/Repositories-${public_repos}-blue?logo=github`;
     };
   </script>
   
