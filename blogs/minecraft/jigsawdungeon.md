@@ -2,7 +2,7 @@
 
 # A datapack for minecraft to generate randomised dungeons 
 
-My repo: https://github.com/JNCressey/jnc-minecraft-datapack-jigsaw-dungeon
+My repo: [https://github.com/JNCressey/jnc-minecraft-datapack-jigsaw-dungeon](https://github.com/JNCressey/jnc-minecraft-datapack-jigsaw-dungeon)
 
 I made a randomised generating dungeon using the jigsaw blocks.
 
