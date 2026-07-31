@@ -15,11 +15,11 @@
     async function getPublicRepoCount(){
       const api_url = "https://api.github.com/users/{{ site.github.owner_name }}";
       const response = await fetch(api_url);
-      const reponseJSON = response.json();
+      const reponseJSON = await response.json();
       console.log(reponseJSON);
       public_repos = reponseJSON.public_repos;
       console.log(public_repos);
-      document.getElementById("foo").textContent = `public repos=${public_repos}`;
+      document.getElementById("repo_count").textContent = `public repos=${public_repos}`;
     };
   </script>
   
