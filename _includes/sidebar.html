@@ -3,23 +3,24 @@
   <!-- todo figure out why this is producing a badge that says [Repositories|invalid] src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/{{ site.github.owner_name }}&label=Repositories&query=%24.public_repos&color=blue&logo=github" -->
   <a href="{{ site.github.owner_url }}?tab=repositories">
     <img
-      id="repo_count"
+      id="respoistoryBagdge"
+      src="https://img.shields.io/badge/Repositories-gray?logo=github"
       alt="Public repositories"
     >
   </a>
-      <!--src="https://img.shields.io/badge/Repositories-11-blue?logo=github"-->
   
   <script>
-    let public_repos;
     getPublicRepoCount();
     async function getPublicRepoCount(){
       const api_url = "https://api.github.com/users/{{ site.github.owner_name }}";
       const response = await fetch(api_url);
       const reponseJSON = await response.json();
-      console.log(reponseJSON);
-      public_repos = reponseJSON.public_repos;
-      console.log(public_repos);
-      document.getElementById("repo_count").src=`https://img.shields.io/badge/Repositories-${public_repos}-blue?logo=github`;
+      const public_repos = reponseJSON.public_repos;
+      if(!Number.isFinite(public_repos)){ return; }
+
+      const respoistoryBagdge = document.getElementById("respoistoryBagdge");
+      respoistoryBagdge.src=`https://img.shields.io/badge/Repositories-${public_repos}-blue?logo=github`;
+      respoistoryBagdge.alt=`Public repositories: ${public_repos}`;
     };
   </script>
   
