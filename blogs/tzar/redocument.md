@@ -84,7 +84,7 @@ I found some rules with a variety of different things that can be testest for. a
     ...
     }
 
-I also found the AI can use the travern resource conversion. Although, the script can only request to have `convert` and not specify which resources are being convered. It appears that the actual AI playing the game makes the decision of what to convert, and the script can have some influence over the conversion by chosing *when* to do it based on having amounts of resources.
+I also found the AI can use the tavern resource conversion. Although, the script can only request to have `convert` and not specify which resources are being convered. It appears that the actual AI playing the game makes the decision of what to convert, and the script can have some influence over the conversion by chosing *when* to do it based on having amounts of resources.
 
     { critical rule when difficulty hard, food 15000 end
       critical rule have tavern end
