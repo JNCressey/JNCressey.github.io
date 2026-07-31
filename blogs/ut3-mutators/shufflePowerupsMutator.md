@@ -1,4 +1,4 @@
-# Unreal Tournament 3 Mutator: Shuffle Power-ups
+# Unreal Tournament 3 Mutator: Shuffle Power-Ups
 
 My repo: [https://github.com/JNCressey/UnrealTournament3-ShufflePowerupsMutator](https://github.com/JNCressey/UnrealTournament3-ShufflePowerupsMutator)
 
