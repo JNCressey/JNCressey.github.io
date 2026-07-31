@@ -2,7 +2,7 @@
 
 # Plugin for RuneLite: No Hint-Arrow
 
-My repo: https://github.com/JNCressey/noHintArrow
+My repo: [https://github.com/JNCressey/noHintArrow](https://github.com/JNCressey/noHintArrow)
 
 I made an accessibility-focused plugin for the RuneLite client, a client for the game RuneScape.
 
