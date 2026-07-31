@@ -15,8 +15,9 @@
     async function getPublicRepoCount(){
       const api_url = "https://api.github.com/users/{{ site.github.owner_name }}";
       const response = await fetch(api_url);
-      console.log(response.json());
-      public_repos = response.json().public_repos;
+      const reponseJSON = response.json();
+      console.log(reponseJSON);
+      public_repos = reponseJSON.public_repos;
       console.log(public_repos);
       document.getElementById("foo").textContent = `public repos=${public_repos}`;
     };
