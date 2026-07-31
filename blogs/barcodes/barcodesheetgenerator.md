@@ -2,7 +2,7 @@
 
 # Barcode sheet generator
 
-my repo: [https://github.com/JNCressey/labels-print](https://github.com/JNCressey/labels-print)
+My repo: [https://github.com/JNCressey/labels-print](https://github.com/JNCressey/labels-print)
 
 ## Intro
 
