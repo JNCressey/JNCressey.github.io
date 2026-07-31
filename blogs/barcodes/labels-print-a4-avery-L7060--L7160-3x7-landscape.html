@@ -1,0 +1,101 @@
+<html>
+<head>
+<style>
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+@page {
+    margin-top: 0 !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	margin-bottom: 0 !important;
+}
+
+body>.printbody {
+	width: 19.5cm;
+	/*
+		numberAcross*labelWidth + (numberAcross-1)*horizontalGap
+		numberAcross = 3
+		labelWidth = 6.35cm
+		horizontalPitch = 6.6cm
+		horizontalGap = horizontalPitch - labelWidth (should be non-negative)
+	*/
+	height: 26.67cm; /* 3.81cm + 6*3.81cm */
+	/*
+		numberDown*labelHeight + (numberDown-1)*verticalGap
+		numberDown = 7
+		labelHeight = 3.81cm
+		verticalPitch = 3.81cm
+		verticalGap = verticalPitch - labelHeight (should be non-negative)
+	*/
+	display: flex;
+	flex-flow: column nowrap; /* the children items are the rows. Each row should follow vertically */
+	justify-content: space-between; /* if there is any space remaining, it is for internal spacing between labels */
+	overflow: hidden; 
+	/*
+		nothing should overflow anyway if the template is followed properly
+		if anything did overflow, it would spoil the bottom of the page and have additional page that is misaligned
+		this template only supports a single sheet. though you can print multiple coppies.
+	*/
+}
+
+body>.printbody>.row {
+	width:100%; /* the row should span the whole width of the print area */
+	display: flex;
+	flex-flow: row nowrap; /* the labels in a row follow as a row */
+	justify-content: space-between; /* if there is any space remaining, it is for internal spacing between labels */
+}
+
+body>.printbody>.row>.label {
+	width: 6.35cm;
+	height: 3.81cm;
+}
+
+@media screen{
+body, body>*, body>*>*, body>*>*>* {outline: 1px grey inset;}
+}
+/** {outline: 1px red dotted;}*/
+
+</style>
+</head>
+
+
+<body>
+<div id='printbody' class='printbody'></div>
+</body>
+<script>
+// https://stackoverflow.com/a/2405540 
+// get url parameters in javascript
+var GET = {};
+var query = window.location.search.substring(1).split("&");
+for (var i = 0, max = query.length; i < max; i++)
+{
+    if (query[i] === "") // check for trailing & with no param
+        continue;
+
+    var param = query[i].split("=");
+    GET[decodeURIComponent(param[0])] = decodeURIComponent(param[1] || "");
+}
+//
+
+
+document.getElementById('printbody').innerHTML = (
+	Array(7).fill().map(_=>
+		"<div class='row'>"
+		+Array(3).fill().map(_=>
+			"<div class='label'>"
+			+"\n"
+			+GET.labelHTML
+			+"\n"
+			+"</div>"
+		).join('\n')
+		+"</div>"
+	).join('\n\n')
+);
+</script>
+</html>
