@@ -8,6 +8,18 @@
     >
   </a>
   
+  <script>
+    let public_repos;
+    getPublicRepoCount();
+    function getPublicRepoCount(){
+      const api_url = "https://api.github.com/users/{{ site.github.owner_name }}";
+      const response = await fetch(api_url);
+      console.log(await response.json());
+      public_repos = await response.json().public_repos;
+      console.log(await public_repos);
+    };
+  </script>
+  
   <!-- star counter badge -->
   <a href="{{ site.github.owner_url }}?tab=repositories&sort=stargazers">
     <img
