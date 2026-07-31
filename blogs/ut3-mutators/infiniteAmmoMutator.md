@@ -8,6 +8,8 @@ The computer game "Unreal Tournament 3" has a system for small modifications to 
 
 I was looking through the available community-made mutators on unreal archive for ones that interested me to add to my game, when I wanted one that would give the weapons infinite ammo. There wasn’t one so I decided to make it.
 
+I shared the mutator on Unreal Archive: [https://unrealarchive.org/unreal-tournament-3/mutators/I/infiniteammomutator_61abee38.html](https://unrealarchive.org/unreal-tournament-3/mutators/I/infiniteammomutator_61abee38.html)
+
 ## How it works
 
 I achieved giving weapons infinite ammo by writing an actor class that my mutator spawns an instance of for every weapon that is spawned. After spawning, it is also given a reference to the weapon that it will manage.
