@@ -56,6 +56,8 @@ I wrote a module that draws a preview of the banner on a canvas element. It iter
 
 <iframe src="./interactive-generator.html"></iframe>
 
+I'm hosting the interactive generator on Github Pages: [Cistercian Numerals Minecraft Banners Generator](https://jncressey.github.io/blogs/minecraft/cistercian-numerals-banners/interactive-generator.html)
+
 ## Flowchart
 
 I made a flowchart so that a player can follow it as crafting instructions, without using the interactive generator, with just the flowchart images as references.
