@@ -1,5 +1,9 @@
 <div style="color:darkred">this blog is not complete yet, still to finish writing up</div>
 
+<script type="module" src="./assets/interactive-generator.js"></script>
+
+<link rel="stylesheet" href="./assets/interactive-generator.css">
+
 # Cistercian Numerals Minecraft Banners
 
 My repo: [https://github.com/JNCressey/Cistercian-Numerals-Minecraft-Banners](https://github.com/JNCressey/Cistercian-Numerals-Minecraft-Banners)
@@ -50,8 +54,185 @@ I wrote a module that draws the result of what the Cistercian numeral is suppose
 
 I wrote a module that draws a preview of the banner on a canvas element. It iterates over the sequence of banner patterns, provided by the other module, and calls a function that draws that pattern step.
 
-<!-- todo src -->
-I'm hosting the interactive generator on Github Pages: [Cistercian Numerals Minecraft Banners Generator](https://jncressey.github.io/blogs/minecraft/cistercian-numerals-banners/interactive-generator.html)
+
+	<div id="generatorWidget">
+		<h2>Interactive Generator</h2>
+		
+		<noscript>
+			<p>The interactive generator requires Javascript enabled to work. Showing an example output instead.</p>
+		</noscript>
+		
+		<form id="generatorForm">
+			<label for="numberInput">Number Input:</label>
+			<input id="numberInput" name="numberInput" type="number" required min="0" max="9999" value="2026" disabled>
+			<script>document.getElementById("numberInput").value="";</script>
+			<br>
+			
+			<label> Background Colour:</label>
+			<select id="backgroundColor" name="backgroundColor" required disabled>
+				<noscript><option value="white">White</option></noscript>
+			</select>
+			<br>
+			
+			<label>Foreground Colour:</label>
+			<select id="foregroundColor" name="foregroundColor" required disabled>
+				<noscript><option value="black" >Black</option></noscript>
+			</select>
+			<br>
+			
+			<button type="submit" disabled>Generate banner patterns</button>
+		</form>
+		<script>document.querySelectorAll('#generatorForm :disabled').forEach((el)=>{ el.disabled = false; });</script>
+		
+		<p>The following output shows what the selected Cistercian numeral is supposed to look like. The two banners are a representation of the left and right sides of the numeral.</p>
+		
+		<p>The command may be too long for chat, so you might need to use a command block.</p>
+		
+		<h3 id="outputNumeralHeading">Output<noscript>: for 2026</noscript></h3>
+		
+		<details open>
+			<summary>The cistercian numeral</summary>
+			<div class="numeralBorder">
+				<canvas id="cistercianNumeralOutput" width="200" height="400">
+					<img src="./assets/noscript/cistercianNumeral-2026.png">
+				</canvas>
+			</div>
+		</details>
+		
+		
+		<div id="outputSides">
+			<div id="outputSectionLeft">
+				<h4 class="bannerSideHeading">Left Banner<noscript>: 2020</noscript></h3>
+				
+				<details open>
+					<summary> Banner preview</summary>
+					<div class="previewBorder">
+						<canvas id="bannerPreviewLeft" class="bannerPreview" width="200" height="400">
+							<img src="./assets/noscript/cistercianBanner-2026-left.png">
+						</canvas>
+					</div>
+				</details>
+				
+				<h5>Give command</h5>
+				<textarea id="giveCommandLeft" class="giveCommand">/give @p minecraft:white_banner[banner_patterns=[{pattern:half_horizontal,color:black},{pattern:stripe_top,color:white},{pattern:half_horizontal_bottom,color:black},{pattern:stripe_bottom,color:white},{pattern:stripe_middle,color:white},{pattern:stripe_right,color:black}]] 1</textarea>
+				<script>document.getElementById("giveCommandLeft").value="";</script>
+				<br>
+				
+				<button id="copyCommandLeft" class="copyCommandButton" disabled>Copy Command</button>
+				<script>document.getElementById("copyCommandLeft").disabled = false;</script>
+				
+				<h5>Crafting/Loom steps</h5>
+				<div class="craftingList">
+					<table>
+						<noscript>
+							<tr><th>Start.</th>
+								<td>White Banner</td>
+								<td><img src="./assets/icons/white-banner.png"></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr><th>Step 1.</th>
+								<td>Black Dye</td>
+								<td><img src="./assets/icons/black-dye.png"></td>
+								<td>Per Fess</td>
+								<td><img src="./assets/icons/per-fess.png"></td>
+							</tr>
+							<tr><th>Step 2.</th>
+								<td>White Dye</td>
+								<td><img src="./assets/icons/white-dye.png"></td>
+								<td>Chief</td>
+								<td><img src="./assets/icons/chief.png"></td>
+							</tr>
+							<tr><th>Step 3.</th>
+								<td>Black Dye</td>
+								<td><img src="./assets/icons/black-dye.png"></td>
+								<td>Per Fess Inverted</td>
+								<td><img src="./assets/icons/per-fess-inverted.png"></td>
+							</tr>
+							<tr><th>Step 4.</th>
+								<td>White Dye</td>
+								<td><img src="./assets/icons/white-dye.png"></td>
+								<td>Base</td>
+								<td><img src="./assets/icons/base.png"></td>
+							</tr>
+							<tr><th>Step 5.</th>
+								<td>White Dye</td>
+								<td><img src="./assets/icons/white-dye.png"></td>
+								<td>Fess</td>
+								<td><img src="./assets/icons/fess.png"></td>
+							</tr>
+							<tr><th>Step 6.</th>
+								<td>Black Dye</td>
+								<td><img src="./assets/icons/black-dye.png"></td>
+								<td>Pale Sinister</td>
+								<td><img src="./assets/icons/pale-sinister.png"></td>
+							</tr>
+						</noscript>
+					</table>
+				</div>
+			</div>
+			
+			<div id="outputSectionRight">
+				<h4 class="bannerSideHeading">Right Banner<noscript>: 6</noscript></h3>
+				
+				<details open>
+					<summary> Banner preview</summary>
+					<div class="previewBorder">
+						<canvas id="bannerPreviewRight" class="bannerPreview" width="200" height="400">
+							<img src="./assets/noscript/cistercianBanner-2026-right.png">
+						</canvas>
+					</div>
+				</details>
+				
+				<h5>Give command</h5>
+				<textarea id="giveCommandRight" class="giveCommand">/give @p minecraft:white_banner[banner_patterns=[{pattern:stripe_right,color:black},{pattern:half_horizontal_bottom,color:white},{pattern:stripe_middle,color:white},{pattern:stripe_left,color:black}]] 1</textarea>
+				<script>document.getElementById("giveCommandRight").value="";</script>
+				<br>
+				
+				<button id="copyCommandRight" class="copyCommandButton" disabled>Copy Command</button>
+				<script>document.getElementById("copyCommandRight").disabled = false;</script>
+				
+				
+				<h5>Crafting/Loom steps</h5>
+				<div class="craftingList">
+					<table>
+						<noscript>
+							<tr><th>Start.</th>
+								<td>White Banner</td>
+								<td><img src="./assets/icons/white-banner.png"></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr><th>Step 1.</th>
+								<td>Black Dye</td>
+								<td><img src="./assets/icons/black-dye.png"></td>
+								<td>Pale Sinister</td>
+								<td><img src="./assets/icons/pale-sinister.png"></td>
+							</tr>
+							<tr><th>Step 2.</th>
+								<td>White Dye</td>
+								<td><img src="./assets/icons/white-dye.png"></td>
+								<td>Per Fess Inverted</td>
+								<td><img src="./assets/icons/per-fess-inverted.png"></td>
+							</tr>
+							<tr><th>Step 3.</th>
+								<td>White Dye</td>
+								<td><img src="./assets/icons/white-dye.png"></td>
+								<td>Fess</td>
+								<td><img src="./assets/icons/fess.png"></td>
+							</tr>
+							<tr><th>Step 4.</th>
+								<td>Black Dye</td>
+								<td><img src="./assets/icons/black-dye.png"></td>
+								<td>Pale Dexter</td>
+								<td><img src="./assets/icons/pale-dexter.png"></td>
+							</tr>
+						</noscript>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 ## Flowchart
