@@ -38,7 +38,11 @@ The wiki uses a template to style the codes in articles. I added tooltips to the
 
 ### Cistercian Numerals Minecraft Banners
 
-Cistercian numerals are symbols that can represent the numbers 1-9999, invented by Cistercian monks in the early 13th century. I made an interpretation of them with Minecraft banner designs that allows two banners to represent a Cistercian numeral which is equivellent to four base-10 digits.
+Cistercian numerals are symbols that can represent the numbers 1-9999, invented by Cistercian monks in the early 13th century.
+
+The compact design of the numerals can be useful in Minecraft. Usually, one way of showing numbers in Minecraft is to use banners, with one Arabic numeral per banner.
+
+I designed a set of banner patterns that resemble a half of a Cistercian numeral, which allows two banners to represent a Cistercian numeral which is equivellent to four base-10 digits.
 
 [Read More](blogs/minecraft/cistercian-numerals-banners/cistercian-numerals-banners.md)
 
