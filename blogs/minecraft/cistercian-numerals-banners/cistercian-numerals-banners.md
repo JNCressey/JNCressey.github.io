@@ -15,13 +15,13 @@ They act as a compact version of base-10, with the four corners of the glyph rep
 
 <figure>
 	<!-- todo alt text -->
-	<img src="examples/cistercian-numeral-forms.png" alt="">
+	<img src="./examples/cistercian-numeral-forms.png" alt="">
 	<figcaption>The form of each digit</figcaption>
 </figure>
 
 <figure>
 	<!-- todo alt text -->
-	<img src="examples/cistercian-numerals.png" alt="">
+	<img src="./examples/cistercian-numerals.png" alt="">
 	<figcaption>Some examples of Cistercian numerals</figcaption>
 </figure>
 
@@ -31,7 +31,7 @@ I designed a set of banner patterns that resemble a half of a Cistercian numeral
 
 <figure>
 	<!-- todo alt text -->
-	<img src="examples/my-banners.png" alt="">
+	<img src="./examples/my-banners.png" alt="">
 	<figcaption>Some examples of my Minecraft banners designs</figcaption>
 </figure>
 
@@ -73,13 +73,13 @@ When the main flowchart tells you to use the auxiliary flowchart, follow the ste
 <details>
 	<summary> Main flowchart </summary>
 	<!-- todo alt text -->
-	<img alt="Main flowchart" src="flowcharts/cistercian-numerals-main.png">
+	<img alt="Main flowchart" src="./flowcharts/cistercian-numerals-main.png">
 </details>
 
 <details>
 	<summary> Auxiliary flowchart </summary>
 	<!-- todo alt text -->
-	<img alt="Auxiliary flowchart" src="flowcharts/cistercian-numerals-auxiliary.png">
+	<img alt="Auxiliary flowchart" src="./flowcharts/cistercian-numerals-auxiliary.png">
 </details>
 
 

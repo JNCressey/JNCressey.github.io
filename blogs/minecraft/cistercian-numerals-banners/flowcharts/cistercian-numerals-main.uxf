@@ -1,0 +1,3148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>705</x>
+      <y>170</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>705</x>
+      <y>200</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>590</x>
+      <y>205</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>thousand or hundreds:
+style=wordwrap
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>640</x>
+      <y>205</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Per Fess Inverted
+style=wordwrap
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>510</x>
+      <y>180</y>
+      <w>65</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-0
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>640</x>
+      <y>165</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-0
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>640</x>
+      <y>195</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-0
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>510</x>
+      <y>190</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>White Dye
+style=wordwrap
+layer=1
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>580</x>
+      <y>165</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Digit B is ...?
+style=wordwrap
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>590</x>
+      <y>175</y>
+      <w>45</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>tens or units:
+style=wordwrap
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>580</x>
+      <y>205</y>
+      <w>15</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>→
+style=wordwrap
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>580</x>
+      <y>175</y>
+      <w>15</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>→
+style=wordwrap
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>640</x>
+      <y>175</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Per Fess
+style=wordwrap
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>505</x>
+      <y>160</y>
+      <w>230</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+group=group-0
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>550</x>
+      <y>185</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>860</x>
+      <y>220</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Bordure
+style=wordwrap
+group=group-2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>830</x>
+      <y>215</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>930</x>
+      <y>215</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>785</x>
+      <y>210</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-2
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>860</x>
+      <y>210</y>
+      <w>95</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-2
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>780</x>
+      <y>205</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+group=group-2
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>785</x>
+      <y>220</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Black Dye
+style=wordwrap
+layer=1
+group=group-2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>805</x>
+      <y>330</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>805</x>
+      <y>360</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>690</x>
+      <y>365</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>thousand or hundreds:
+style=wordwrap
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>740</x>
+      <y>365</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Base
+style=wordwrap
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>610</x>
+      <y>340</y>
+      <w>65</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-7
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>740</x>
+      <y>325</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-7
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>740</x>
+      <y>355</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-7
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>610</x>
+      <y>350</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>White Dye
+style=wordwrap
+layer=1
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>680</x>
+      <y>325</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Digit B is ...?
+style=wordwrap
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>690</x>
+      <y>335</y>
+      <w>45</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>tens or units:
+style=wordwrap
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>680</x>
+      <y>365</y>
+      <w>15</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>→
+style=wordwrap
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>680</x>
+      <y>335</y>
+      <w>15</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>→
+style=wordwrap
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>740</x>
+      <y>335</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Chief
+style=wordwrap
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>605</x>
+      <y>320</y>
+      <w>230</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+group=group-7
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>650</x>
+      <y>345</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-7</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>475</x>
+      <y>60</y>
+      <w>20</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>20.0;40.0;20.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>115</y>
+      <w>15</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>160</y>
+      <w>15</w>
+      <h>275</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;530.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>470</x>
+      <y>135</y>
+      <w>30</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Digit B
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>305</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>8 or 9
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>520</x>
+      <y>300</y>
+      <w>30</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>755</x>
+      <y>215</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>8
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>755</x>
+      <y>280</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>9
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>340</y>
+      <w>85</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Digits are both 8
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>325</y>
+      <w>15</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;160.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>780</x>
+      <y>270</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Use the auxilary flowchart for digit A
+style=wordwrap
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>970</x>
+      <y>205</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Use the auxiliary flowchart for digit A
+style=wordwrap
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1035</x>
+      <y>215</y>
+      <w>65</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>870</x>
+      <y>335</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Use the auxiliary flowchart for digit A
+style=wordwrap
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>935</x>
+      <y>345</y>
+      <w>165</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>310.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>870</x>
+      <y>385</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Use the auxiliary flowchart for digit A
+style=wordwrap
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>935</x>
+      <y>395</y>
+      <w>135</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>355</y>
+      <w>85</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Digits are both 9
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>185</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>7
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>745</x>
+      <y>180</y>
+      <w>30</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Digit A
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>755</x>
+      <y>205</y>
+      <w>15</w>
+      <h>95</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;170.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>185</y>
+      <w>25</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1070</x>
+      <y>280</y>
+      <w>30</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>40.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>830</x>
+      <y>345</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>845</x>
+      <y>280</y>
+      <w>25</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>955</x>
+      <y>215</y>
+      <w>25</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>945</x>
+      <y>1195</y>
+      <w>85</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>→ hundred and units:
+style=wordwrap
+group=group-13</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1025</x>
+      <y>1195</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Pale Dexter
+style=wordwrap
+group=group-13</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>865</x>
+      <y>1180</y>
+      <w>240</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+group=group-13
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>915</x>
+      <y>1205</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-13</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>1075</x>
+      <y>1190</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-13</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>1075</x>
+      <y>1220</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-13</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>945</x>
+      <y>1225</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>→ thousands and tens:
+style=wordwrap
+group=group-13</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1025</x>
+      <y>1225</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Pale Sinister
+style=wordwrap
+group=group-13</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>870</x>
+      <y>1200</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-13
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>1025</x>
+      <y>1185</y>
+      <w>75</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-13
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>1025</x>
+      <y>1215</y>
+      <w>75</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-13
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>870</x>
+      <y>1210</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Black Dye
+style=wordwrap
+layer=1
+group=group-13</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>580</x>
+      <y>775</y>
+      <w>230</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+group=group-9
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>625</x>
+      <y>800</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>780</x>
+      <y>785</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>780</x>
+      <y>815</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>665</x>
+      <y>820</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>thousand or hundreds:
+style=wordwrap
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>715</x>
+      <y>820</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Per Fess Inverted
+style=wordwrap
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>585</x>
+      <y>795</y>
+      <w>65</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-9
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>715</x>
+      <y>780</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-9
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>715</x>
+      <y>810</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-9
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>585</x>
+      <y>805</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>White Dye
+style=wordwrap
+layer=1
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>655</x>
+      <y>780</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Digit B is ...?
+style=wordwrap
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>665</x>
+      <y>790</y>
+      <w>45</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>tens or units:
+style=wordwrap
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>655</x>
+      <y>820</y>
+      <w>15</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>→
+style=wordwrap
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>655</x>
+      <y>790</y>
+      <w>15</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>→
+style=wordwrap
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>715</x>
+      <y>790</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Per Fess
+style=wordwrap
+group=group-9</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>860</x>
+      <y>800</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>1015</x>
+      <y>785</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>1015</x>
+      <y>815</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>900</x>
+      <y>820</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>thousand or hundreds:
+style=wordwrap
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>950</x>
+      <y>820</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Per Fess Inverted
+style=wordwrap
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>820</x>
+      <y>795</y>
+      <w>65</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-10
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>950</x>
+      <y>780</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-10
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>950</x>
+      <y>810</y>
+      <w>90</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-10
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>820</x>
+      <y>805</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>White Dye
+style=wordwrap
+layer=1
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>890</x>
+      <y>780</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Digit B is ...?
+style=wordwrap
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>900</x>
+      <y>790</y>
+      <w>45</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>tens or units:
+style=wordwrap
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>890</x>
+      <y>820</y>
+      <w>15</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>→
+style=wordwrap
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>890</x>
+      <y>790</y>
+      <w>15</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>→
+style=wordwrap
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>815</x>
+      <y>775</y>
+      <w>230</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+group=group-10
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>950</x>
+      <y>790</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Per Fess
+style=wordwrap
+group=group-10</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>1015</x>
+      <y>1140</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-11</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>1075</x>
+      <y>1140</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-11</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>1045</x>
+      <y>1135</y>
+      <w>55</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-11
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>970</x>
+      <y>1135</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+group=group-11
+layer=-2
+bg=#ffffff
+transparency=0</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>970</x>
+      <y>1145</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>White Dye
+style=wordwrap
+layer=1
+group=group-11</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1045</x>
+      <y>1145</y>
+      <w>30</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Fess
+style=wordwrap
+group=group-11</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>965</x>
+      <y>1130</y>
+      <w>140</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+group=group-11
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>475</x>
+      <y>440</y>
+      <w>40</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;40.0;60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>640</x>
+      <y>630</y>
+      <w>30</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Digit A
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>495</y>
+      <w>15</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>665</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-
+group=group-64</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>680</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>6
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>700</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>7, 8 or 9
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>665</y>
+      <w>380</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>740.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>695</x>
+      <y>695</y>
+      <w>30</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Digit B
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>1005</x>
+      <y>860</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Use the auxiliary flowchart for digit B
+style=wordwrap
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>755</x>
+      <y>860</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Use the auxiliary flowchart for digit B
+style=wordwrap
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>690</x>
+      <y>680</y>
+      <w>215</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>410.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>600</y>
+      <w>430</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>840.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1035</x>
+      <y>895</y>
+      <w>65</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>785</x>
+      <y>895</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>320.0;40.0;10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1020</x>
+      <y>840</y>
+      <w>15</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>785</x>
+      <y>840</y>
+      <w>15</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>705</x>
+      <y>720</y>
+      <w>75</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>2
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>705</x>
+      <y>750</y>
+      <w>75</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>3 or 4
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>705</x>
+      <y>735</y>
+      <w>75</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>0, 1, 5 or 6
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>130.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>705</x>
+      <y>720</y>
+      <w>15</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>765</x>
+      <y>735</y>
+      <w>140</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>260.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>765</x>
+      <y>720</y>
+      <w>305</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>590.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>765</x>
+      <y>750</y>
+      <w>35</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;50.0;50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>670</x>
+      <y>615</y>
+      <w>430</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>840.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>650</x>
+      <y>655</y>
+      <w>15</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>990</x>
+      <y>1270</y>
+      <w>10</w>
+      <h>10</h>
+    </coordinates>
+    <panel_attributes>type=final</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>990</x>
+      <y>1245</y>
+      <w>15</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;50.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>1000</x>
+      <y>1265</y>
+      <w>80</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Banner is complete
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>945</x>
+      <y>1185</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>The banner is ...?
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>565</x>
+      <y>575</y>
+      <w>35</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>50.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>590</x>
+      <y>570</y>
+      <w>30</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>600</y>
+      <w>85</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Digits are both 6
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>615</y>
+      <w>85</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Digits are both 7
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>635</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Else
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>595</y>
+      <w>15</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;100.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1030</x>
+      <y>1165</y>
+      <w>15</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;30.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>665</x>
+      <y>665</y>
+      <w>20</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>&lt; 6
+style=wordwrap
+group=group-64</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1085</x>
+      <y>220</y>
+      <w>15</w>
+      <h>920</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-
+lw=5</panel_attributes>
+    <additional_attributes>10.0;1820.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1055</x>
+      <y>400</y>
+      <w>15</w>
+      <h>470</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-
+lw=5</panel_attributes>
+    <additional_attributes>10.0;920.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>435</x>
+      <y>515</y>
+      <w>50</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>Is either
+digit 3?
+style=wordwrap
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>430</x>
+      <y>25</y>
+      <w>30</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Digit A
+type=decision</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>55</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>8 or 9
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>50</y>
+      <w>15</w>
+      <h>405</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;790.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>440</x>
+      <y>0</y>
+      <w>10</w>
+      <h>10</h>
+    </coordinates>
+    <panel_attributes>
+type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>5</y>
+      <w>15</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>450</x>
+      <y>0</y>
+      <w>75</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Start here.
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>530</x>
+      <y>0</y>
+      <w>375</w>
+      <h>65</h>
+    </coordinates>
+    <panel_attributes>Choose a side of the numeral to make:
+→ the hundreds and units
+→ or the thousands and tens.
+
+Choose two digits. Call them digit A and digit B.
+With A being the larger digit, from their digit values, ignoring place value. (eg, for both 2080 and 8020: A=8 and B=2.)
+
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>560</y>
+      <w>15</w>
+      <h>275</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;530.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>940</x>
+      <y>910</y>
+      <w>15</w>
+      <h>280</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-
+lw=5</panel_attributes>
+    <additional_attributes>10.0;540.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>890</x>
+      <y>685</y>
+      <w>15</w>
+      <h>100</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-
+lw=5</panel_attributes>
+    <additional_attributes>10.0;180.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>575</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>no
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>600</x>
+      <y>400</y>
+      <w>280</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>540.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>530</x>
+      <y>90</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-19</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>475</x>
+      <y>85</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+bg=#ffffff
+transparency=0
+group=group-19</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>475</x>
+      <y>95</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Black Banner
+style=wordwrap
+layer=1
+group=group-19</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>470</x>
+      <y>80</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+lw=2
+bg=#d0d0d0
+layer=-3
+group=group-19</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>995</x>
+      <y>270</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Pale Sinister
+style=wordwrap
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>910</x>
+      <y>280</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>1045</x>
+      <y>265</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>1045</x>
+      <y>295</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>995</x>
+      <y>300</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Pale Dexter
+style=wordwrap
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>865</x>
+      <y>275</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+layer=-2
+bg=#ffffff
+transparency=0
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>995</x>
+      <y>260</y>
+      <w>75</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+layer=-2
+bg=#ffffff
+transparency=0
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>995</x>
+      <y>290</y>
+      <w>75</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+layer=-2
+bg=#ffffff
+transparency=0
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>865</x>
+      <y>285</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Black Dye
+style=wordwrap
+layer=1
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>860</x>
+      <y>255</y>
+      <w>215</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>
+lw=2
+bg=#d0d0d0
+layer=-3
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>950</x>
+      <y>300</y>
+      <w>50</w>
+      <h>25</h>
+    </coordinates>
+    <panel_attributes>thousands and tens:
+style=wordwrap
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>940</x>
+      <y>300</y>
+      <w>15</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>→
+style=wordwrap
+layer=1
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>950</x>
+      <y>270</y>
+      <w>45</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>hundred and units:
+style=wordwrap
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>940</x>
+      <y>270</y>
+      <w>15</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>→
+style=wordwrap
+layer=1
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>935</x>
+      <y>260</y>
+      <w>90</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>The banner is ...?
+style=wordwrap
+group=group-5</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>755</x>
+      <y>1040</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Use the auxiliary flowchart for the non-3 digit
+style=wordwrap
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>715</x>
+      <y>1050</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>675</x>
+      <y>1045</y>
+      <w>65</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+layer=-2
+bg=#ffffff
+transparency=0
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>600</x>
+      <y>1045</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+layer=-2
+bg=#ffffff
+transparency=0
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>600</x>
+      <y>1055</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>White Dye
+style=wordwrap
+layer=1
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>675</x>
+      <y>1055</y>
+      <w>40</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Lozenge
+style=wordwrap
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>645</x>
+      <y>1050</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>595</x>
+      <y>1040</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+lw=2
+bg=#d0d0d0
+layer=-3
+group=group-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>455</x>
+      <y>815</y>
+      <w>40</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>yes
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>500</x>
+      <y>860</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>The
+other
+digit
+type=decision
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>1050</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>0, 1 ,2, 4, 5, or 6
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>895</y>
+      <w>15</w>
+      <h>175</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;330.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>1000</y>
+      <w>65</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>7
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>110.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>795</x>
+      <y>950</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>755</x>
+      <y>945</y>
+      <w>65</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+layer=-2
+bg=#ffffff
+transparency=0
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>680</x>
+      <y>945</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+layer=-2
+bg=#ffffff
+transparency=0
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>680</x>
+      <y>955</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>White Dye
+style=wordwrap
+layer=1
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>725</x>
+      <y>950</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>675</x>
+      <y>940</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+lw=2
+bg=#d0d0d0
+layer=-3
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>755</x>
+      <y>955</y>
+      <w>40</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Lozenge
+style=wordwrap
+group=group-8</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>835</x>
+      <y>1040</y>
+      <w>40</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>The
+non-3
+digit
+type=decision
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>850</x>
+      <y>1105</y>
+      <w>70</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>0, 1 ,2, 4, or 5
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>850</x>
+      <y>1075</y>
+      <w>15</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>850</x>
+      <y>1085</y>
+      <w>70</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>6
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>120.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>950</y>
+      <w>90</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Digits are both 3
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>160.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>905</x>
+      <y>1085</y>
+      <w>195</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>370.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>820</x>
+      <y>950</y>
+      <w>135</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>250.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>500</x>
+      <y>565</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Use the auxiliary flowchart for digit A
+style=wordwrap
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>440</x>
+      <y>465</y>
+      <w>80</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+bg=#ffffff
+transparency=0
+group=group-20</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>440</x>
+      <y>475</y>
+      <w>60</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>White Banner
+style=wordwrap
+layer=1
+group=group-20</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>435</x>
+      <y>460</y>
+      <w>90</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+lw=2
+bg=#d0d0d0
+layer=-3
+group=group-20</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>495</x>
+      <y>470</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-20</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>435</y>
+      <w>50</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes> &lt; 8
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>80.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>420</y>
+      <w>40</w>
+      <h>155</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>60.0;290.0;60.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>415</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes> &lt; 7
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>530</x>
+      <y>395</y>
+      <w>85</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>Digits are 9 &amp; 8
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>150.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>650</x>
+      <y>995</y>
+      <w>65</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+layer=-2
+bg=#ffffff
+transparency=0
+group=group-23</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>575</x>
+      <y>995</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+layer=-2
+bg=#ffffff
+transparency=0
+group=group-23</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>575</x>
+      <y>1005</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>White Dye
+style=wordwrap
+layer=1
+group=group-23</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>620</x>
+      <y>1000</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-23</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>570</x>
+      <y>990</y>
+      <w>150</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+lw=2
+bg=#d0d0d0
+layer=-3
+group=group-23</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>650</x>
+      <y>1005</y>
+      <w>40</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Lozenge
+style=wordwrap
+group=group-23</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>690</x>
+      <y>1000</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-23</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>735</x>
+      <y>1005</y>
+      <w>45</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Black Dye
+style=wordwrap
+layer=1
+group=group-24</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Text</id>
+    <coordinates>
+      <x>810</x>
+      <y>1005</y>
+      <w>65</w>
+      <h>15</h>
+    </coordinates>
+    <panel_attributes>Bordure
+style=wordwrap
+group=group-24</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>730</x>
+      <y>990</y>
+      <w>180</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>
+lw=2
+layer=-1
+bg=#d0d0d0
+group=group-24</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>780</x>
+      <y>1000</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-24</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>880</x>
+      <y>1000</y>
+      <w>20</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+group=group-24</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>735</x>
+      <y>995</y>
+      <w>70</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+bg=#ffffff
+transparency=0
+group=group-24</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLObject</id>
+    <coordinates>
+      <x>810</x>
+      <y>995</y>
+      <w>95</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+bg=#ffffff
+transparency=0
+group=group-24</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>905</x>
+      <y>1000</y>
+      <w>195</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>370.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>900</x>
+      <y>1105</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>90.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>595</x>
+      <y>940</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Use the auxiliary flowchart for the other 3 digit
+style=wordwrap
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>715</x>
+      <y>1000</y>
+      <w>25</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>660</x>
+      <y>950</y>
+      <w>25</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>1050</y>
+      <w>25</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>820</x>
+      <y>1050</y>
+      <w>25</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>30.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>485</x>
+      <y>805</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Use the auxiliary flowchart for the 3 digit
+style=wordwrap
+lw=2
+bg=#d0d0d0
+layer=-3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>515</x>
+      <y>840</y>
+      <w>15</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>
+lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;40.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
