@@ -1,7 +1,3 @@
-<script type="module" src="./assets/interactive-generator.js"></script>
-
-<link rel="stylesheet" href="./assets/interactive-generator.css">
-
 # Cistercian Numerals Minecraft Banners
 
 My repo: [https://github.com/JNCressey/Cistercian-Numerals-Minecraft-Banners](https://github.com/JNCressey/Cistercian-Numerals-Minecraft-Banners)
