@@ -1,5 +1,3 @@
-<div style="color:darkred">this blog is not complete yet, still to finish writing up</div>
-
 <script type="module" src="./assets/interactive-generator.js"></script>
 
 <link rel="stylesheet" href="./assets/interactive-generator.css">
@@ -74,13 +72,13 @@ Start at the top of the main flowchart.
 
 When the main flowchart tells you to use the auxiliary flowchart, follow the steps on the other image for the single digit that the main flowchart told you to use. Then return to the main flowchart where you left from.
 
-<details>
+<details open>
 	<summary> Main flowchart </summary>
 	<!-- todo alt text -->
 	<img alt="Main flowchart" src="./flowcharts/cistercian-numerals-main.png">
 </details>
 
-<details>
+<details open>
 	<summary> Auxiliary flowchart </summary>
 	<!-- todo alt text -->
 	<img alt="Auxiliary flowchart" src="./flowcharts/cistercian-numerals-auxiliary.png">
