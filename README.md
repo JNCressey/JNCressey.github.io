@@ -1,5 +1,21 @@
 # Development Projects
 
+## RuneLite
+
+RuneLite is a client for the game Old School RuneScape. I made some plugins for RuneLite's plugin hub.
+
+### Plugin for RuneLite: Item Respawn Timer
+
+I made a RuneLite plugin that shows timers for respawning items.
+
+[Read More](blogs/runelite/item-respawn-timer/item-respawn-timer.md)
+
+### Plugin for RuneLite: No Hint-Arrow
+
+I made a accessibility-focused RuneLite plugin that removes the flashing arrow used in tutorials.
+
+[Read More](blogs/runelite/nohintarrow.md)
+
 ## Unreal Tournament 3 Mutators
 
 The computer game "Unreal Tournament 3" has a system for small modifications to be selected when you start a game. It calls these small mods "mutators". 
@@ -25,14 +41,6 @@ Fairy rings are circles of mushrooms, at specific locations in the game's world,
 The wiki uses a template to style the codes in articles. I added tooltips to the templated styling, to show the location names.
 
 [Read More](blogs/osrswiki/modulefairycode.md)
-
-
-## RuneLite
-
-### Plugin for RuneLite: No Hint-Arrow
-
-[Read More](blogs/runelite/nohintarrow.md)
-
 
 ## Minecraft
 

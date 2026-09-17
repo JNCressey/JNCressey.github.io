@@ -4,7 +4,7 @@
 
 My repo: [https://github.com/JNCressey/noHintArrow](https://github.com/JNCressey/noHintArrow)
 
-I made an accessibility-focused plugin for the RuneLite client, a client for the game RuneScape.
+I made an accessibility-focused plugin for the RuneLite client, a client for the game Old School RuneScape.
 
 In the game, when there are tutorials or something the game wants to point to, it produces a flashing yellow arrow.
 I saw some people complain about this in relation to their epilepsy.
