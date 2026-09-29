@@ -2,6 +2,8 @@
 
 My repo: [https://github.com/JNCressey/item-respawn-timer](https://github.com/JNCressey/item-respawn-timer)
 
+RuneLite plugin-hub page for this plugin: [https://runelite.net/plugin-hub/show/item-respawn-timer](https://runelite.net/plugin-hub/show/item-respawn-timer)
+
 I made a plugin for the RuneLite client, a client for the game Old School RuneScape, that shows timers for respawning items.
 
 ## Respawning Items
